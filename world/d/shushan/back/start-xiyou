@@ -1,0 +1,13 @@
+#!/bin/sh
+ulimit -n 512
+workdir=/home/neo/mud/xlqy
+
+touch $workdir/xyj.out
+while true
+do
+  \mv -f $workdir/world/log/debug.log \
+         $workdir/world/log/debug`date +"%m%d%H%M%S"`
+  $workdir/driver $workdir/config.xlqy>>$workdir/xyj.out 
+  sleep 10 
+done
+

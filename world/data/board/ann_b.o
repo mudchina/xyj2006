@@ -1,0 +1,2 @@
+#/std/bboard.c
+dbase (["id":"board","capacity":100,"long":"这是一个供人留言记事的留言板。","board_id":"ann_b","notes":({}),"no_get":1,"master":"bear","name":"新闻发布留言板","location":"/d/wiz/newsroom",])

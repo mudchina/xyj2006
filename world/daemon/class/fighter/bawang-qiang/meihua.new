@@ -1,0 +1,80 @@
+//bawang-qiang, perform meihua
+// /daemon/class/fighter/bawang-qiang/meihua
+//梅花六出 要求霸王枪法70级，110级以后出6招
+//writted by jie 2001-2-10
+#include <ansi.h>
+#include <combat.h>
+inherit SSERVER;
+
+int perform(object me, object target)
+{
+        object weapon;
+int myskill,times, damage;
+        string number;
+        myskill = (int)me->query_skill("bawang-qiang", 1);  
+        weapon = me->query_temp("weapon");
+      
+        if( !target ) target = offensive_target(me);
+        
+       
+        if( !target
+        ||      !target->is_character()
+        ||      target->is_corpse()
+        ||      target==me)
+                return notify_fail("你要对谁施展这一招「梅花六出」？\n");
+
+        if(!me->is_fighting())
+                return notify_fail("「梅花六出」只能在战斗中使用！\n");
+                
+        if(me->query("family/family_name") != "将军府" )
+                return notify_fail("你是哪儿偷学来的武功，也想用「梅花六出」?\n");
+	
+              
+        if (me->query_temp("bawang"))
+           return notify_fail("你正在施用霸字诀，没有余力出「梅花六出」！\n");
+        
+        if(!objectp(weapon = me->query_temp("weapon"))
+           ||(string)weapon->query("skill_type")!="spear")
+                return notify_fail("「梅花六出」要用枪才能发挥威力。\n");
+
+        if((int)me->query("max_force") < 300 )
+                return notify_fail("你的内力不够！\n");
+
+	if((int)me->query("force") < 300 )
+		return notify_fail("你的内力不足！\n");
+
+        if((int)me->query("sen") < (int)(me->query("max_sen")/2) )
+                return notify_fail("你的精神不足，没法子施展梅花六出！\n");
+
+        if(myskill < 100)
+                return notify_fail("你的霸王枪法级别还不够。\n");
+        else 
+            if(myskill <130){
+                times = 3;        
+                number = "三";}
+            else
+                if (myskill <150){
+                    times = 4;
+                    number = "四";}
+                else
+                    if(myskill <180 ){
+                           times = 5;
+                           number = "五";}
+                     else{ 
+                           times = 6;
+                           number = "六";}
+
+      
+	damage = me->query_str() + random(me->query_skill("spear"));
+
+message_vision(HIC"\n$N一声长啸，"+ weapon->query("name")+ HIC"光一转，闪电般连续向$n攻出了"+number+"枪，枪枪要命！\n"NOR,me,target);
+
+        for(int i=1;i<=times;i++)
+        COMBAT_D->do_attack(me, target, weapon);
+        me->receive_damage("sen", 20);
+        me->add("force", -(times*40+50));
+       
+        me->start_busy(1+random(2));
+        return 1;
+}
+

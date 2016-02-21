@@ -1,0 +1,3 @@
+// snow@jhfy
+
+inherit SKILL;

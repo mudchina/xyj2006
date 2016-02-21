@@ -1,0 +1,7 @@
+#/d/qujing/tianzhu/npc/fu.c
+dbase (["max_gin":292,"max_sen":1014,"combat_exp":2000,"atman":0,"sen":1014,"default_actions":,"mana":0,"vendor_goods":(["guazi":"/d/qujing/tianzhu/obj/guazi","dangao":"/d/qujing/tianzhu/obj/dangao","chaodou":"/d/qujing/tianzhu/obj/chaodou","jiansu":"/d/qujing/tianzhu/obj/jiansu",]),"eff_sen":1014,"actions":,"name":"福嫂","unit":"位","gender":"女性","force":0,"attitude":"friendly","shop_id":({"fusao","sao","fu",}),"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"kar":14,"shop_title":"阿福嫂","str":14,"max_kee":936,"cps":16,"int":27,"id":"fu sao","cor":19,"race":"人类","eff_kee":936,"con":22,"spi":12,"eff_gin":292,"gin":292,"per":30,"age":30,"can_speak":1,"kee":936,"shen_type":1,"startroom":"/d/qujing/tianzhu/xiaochi",])
+skills (["unarmed":30,])
+learned (["unarmed":0,])
+SAVE_NAME "tianzhu_fu_sao"
+price_ratio 10
+close_time 1156375071

@@ -1,0 +1,7 @@
+#/d/qujing/baoxiang/npc/laoban.c
+dbase (["can_speak":1,"gin":308,"atman":0,"startroom":"/d/qujing/baoxiang/yangrou","actions":,"shen_type":1,"attitude":"friendly","vendor_goods":(["yangtou":"/d/qujing/baoxiang/obj/yangtou","zasui":"/d/qujing/baoxiang/obj/zasui","paomo":"/d/qujing/baoxiang/obj/paomo",]),"name":"老板","max_gin":308,"gender":"男性","limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"kee":858,"max_kee":858,"race":"人类","id":"laoban","mana":0,"age":30,"eff_sen":676,"sen":676,"force":0,"shop_id":({"laoban",}),"shop_title":"老板","combat_exp":500,"kar":20,"eff_gin":308,"str":20,"max_sen":676,"cps":16,"int":13,"cor":15,"default_actions":,"eff_kee":858,"unit":"位","con":13,"spi":13,"per":34,])
+skills (["unarmed":100,])
+learned (["unarmed":0,])
+SAVE_NAME "baoxiang_lao_ban"
+price_ratio 10
+close_time 1155975776

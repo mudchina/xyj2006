@@ -1,0 +1,24 @@
+#!/bin/sh
+#this script must be executed in this ..skill_wiz.. directory.
+#it is used to link skill files under "./*/" directories to "../skill/" directory.
+
+for dir in *
+do
+	if [ -d $dir ]; then
+		cd $dir
+
+		for file in *.c
+		do
+			if [ -f $file ]; then
+			cd ../../skill
+   			ln -s ../skill_wiz/$dir/$file $file
+			cd ../skill_wiz/$dir 
+			fi
+		done
+
+		cd ..
+	fi
+done
+exit 0
+
+

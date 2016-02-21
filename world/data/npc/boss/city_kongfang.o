@@ -1,0 +1,8 @@
+#/d/city/npc/bookseller.c
+dbase (["int":14,"cor":10,"can_speak":1,"attitude":"friendly","con":24,"actions":,"atman":0,"spi":18,"per":25,"vendor_goods":(["san":"/d/obj/book/san","balei":"/d/obj/book/balei","jingang":"/d/obj/book/jingang","blade-book":"/d/obj/book/basic_blade","quanji":"/d/obj/book/boxing","shaolin":"/d/obj/book/parrybook2","unarmed-book":"/d/obj/book/basic_unarmed","huajian":"/d/obj/book/westsword","chunqiu":"/d/obj/book/chunqiu","fumo":"/d/obj/book/forcebook2","mihou":"/d/obj/book/mihou-book",]),"name":"孔方兄","gender":"男性","force":0,"startroom":"/d/city/bookstore","title":"书店老板","long":"孔秀才入京赶考落第，盘缠用尽，无法还乡，不得已在长安开一家书店。传说他曾遇异人，学得一些防身之术。","limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"unit":"位","max_gin":388,"daoxing":20000,"race":"人类","id":"kong fang","age":37,"kee":26624,"max_kee":26624,"sen":832,"shop_id":({"kongfang","kong","fang","bookseller","seller",}),"combat_exp":40000,"mana":0,"rank_info":(["respect":"孔秀才",]),"default_actions":,"max_sen":832,"eff_sen":832,"eff_gin":388,"eff_kee":26624,"kar":28,"str":1000,"gin":388,"cps":15,])
+skills (["unarmed":500,"jinghun-zhang":500,"literate":70,"parry":600,"dodge":500,])
+learned (["unarmed":0,"jinghun-zhang":0,"literate":0,"parry":0,"dodge":0,])
+skill_map (["unarmed":"jinghun-zhang",])
+SAVE_NAME "city_kongfang"
+price_ratio 10
+close_time 1156247735

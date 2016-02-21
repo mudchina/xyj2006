@@ -1,0 +1,47 @@
+			取经人说明
+		
+
+取经人由两个部分构成:
+
+  一个是qujingren.c 
+  一个是qjwj.c qjwj是对应乌鸡国的取经人.qjwj include qujingren.c
+  构想是各关有各自的qjxxx.c都include qujingren.c
+  qujingren.c 定义了基本取经人基本的属性.
+  各种变化由qjxxx.c来做
+
+
+取经人属性一.
+
+  obstacle/qujing==ren  取经人和护送人都有这个参数用于关口是否允许通过的
+统一判断.同时也可以标志取经人的特殊.
+
+  no_kill,1		不会被杀,需要改动杀人指令及相关的东西
+  no_magic,1		不会被用法术
+  
+  no_kill和no_magic 也可以被用于其他玩家和npc,如果设定这两个参数就禁杀
+  在乌鸡国中假国王如果变取经人就不能被杀,同样使用这两个变量
+
+控制取经人:
+  ask qujingren about walk	开始启动,即开始跟随玩家
+  ask qujingren about rest	休息,停止跟随玩家
+  ask qujingren about sleep  	睡觉(在乌鸡中重新定义了wake)
+
+  me_init();			各关可以自己定义的初始话,如果单独update 
+				qujingren.c 需要去掉此句.
+
+  sleep 模块中如果定义了redef_wake,就可以在关卡中定义wakeup1.这样取经人
+  醒来后,就会调用wakeup1.
+
+  accept_object中定义redef_accept_obj,同样可以使用关卡定义中的
+  accept_object1.
+
+
+
+  
+  
+
+     
+
+
+
+

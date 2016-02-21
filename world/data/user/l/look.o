@@ -1,0 +1,3 @@
+#/obj/user.c
+dbase (["limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"no_gift":1,"id":"look","race":"人类","title":"大唐游民","age":14,"max_gin":100,"birthday":1155138211,"potential":99,"kee":400,"food":299,"max_kee":400,"water":299,"no_magic":1,"life":(["life_time":89,"init_life_time":89,]),"channels":({"chat","rumor","xyj","sldh","es",}),"max_sen":500,"eff_kee":400,"sen":500,"name":"龙族的大人","gender":"男性","eff_gin":100,"gin":100,"eff_sen":500,"default_actions":,"kar":20,"actions":,"str":20,"mud_age":10,"cps":20,"int":25,"cor":20,"unit":"位","con":20,"can_speak":1,"spi":25,"attitude":"peaceful","per":20,])
+autoload ({})

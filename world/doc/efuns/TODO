@@ -1,0 +1,30 @@
+function bind(function, object)
+array call_stack(int default: 0)
+string check_memory(int default: 0) [PACKAGE_DEVELOP DEBUGMALLOC DEBUGMALLOC_EXTENSIONS]
+mixed copy(mixed) [PACKAGE_CONTRIB]
+void debug_message(string) [PACKAGE_CONTRIB]
+void ed_cmd(string) [!OLD_ED]
+void ed_start(string, int) [!OLD_ED]
+int external_start(int, string, string|function, string|function, string|function|void) [PACKAGE_EXTERNAL]
+mixed fetch_variable (string) [PACKAGE_CONTRIB]
+int file_length(string) [PACKAGE_CONTRIB]
+array functions(object, int default:0) [PACKAGE_CONTRIB]
+object array heart_beat_info heart_beats() [COMPAT_32]
+object array heart_beats() [PACKAGE_CONTRIB]
+float array id_matrix() [PACKAGE_MATRIX]
+float array lookat_rotate(float array, float, float, float) [PACKAGE_MATRIX]
+string lpc_info() [ LPC_TO_C ]
+int malloc_check() [NEXT_MALLOC_DEBUG PACKAGE_DEVELOP
+int malloc_debug(int) [NEXT_MALLOC_DEBUG PACKAGE_DEVELOP
+object array named_livings() [!NO_ADD_ACTION] [PACKAGE_CONTRIB]
+int next_bit(string, int)
+parse_add_rule(string, string) [PACKAGE_PARSER]
+parse_add_synonym(string, string, void | string) [PACKAGE_PARSER]
+parse_dump() [PACKAGE_PARSER]
+parse_init() [PACKAGE_PARSER]
+parse_my_rules(object, string, void | int) [PACKAGE_PARSER]
+parse_refresh() [PACKAGE_PARSER]
+parse_sentence(string, void|int) [PACKAGE_PARSER]
+pluralize() [PACKAGE_CONTRIB]
+program_info() [PACKAGE_CONTRIB]
+query_ed_mode() [!OLD_ED]

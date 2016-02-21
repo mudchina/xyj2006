@@ -1,0 +1,200 @@
+
+// 神话世界·西游记·版本４．５０
+/* SecCrypt CPL V3R05 */
+ 
+//qianjun-bang.c 【千钧棒法】
+
+/*
+千钧棒    dodge  10    parry  -10    damage  30
+“金猴奋起千钧棒，玉宇澄清万里埃”，可说是为千钧棒
+定下了基调：大开大合，气势磅礴。
+*/
+
+inherit SKILL
+string* skill_head =({
+        "$N身形稍退，使出一招",
+        "$N仰天长笑，看也不看，一招",
+        "$N一个虎跳，使出",
+        "$N一声巨喝，好一个",
+        "$N使出",
+        "$N连翻几个筋斗云，一招",
+
+})
+
+string* skill_tail =({
+        "，手中$w迎风一抖，朝着$n劈头盖脸地砸将下来",
+        "，随手一棒向$n当头砸下",
+        "，越过$n头顶，手中$w抡个大圆，呼！地一声砸向$n$l",
+        "，就在$n一愣之间，$N手中$w已是呼啸而至，扫向$n的$l",
+        "，脚步跄踉，左一棒，右一棒，\n打得$n手忙脚乱，招架不迭",
+        "，手中$w转得如风车一般，\n一连三棒从半空中击向$n顶门",
+})
+
+mapping *action = ({
+        ([      name:                 大闹阎罗府,
+                "action":
+"$N身形稍退，手中$w迎风一抖，朝着$n劈头盖脸地砸将下来",
+                "dodge":                5,
+     "parry":   -10,
+                "damage":               55,
+                "damage_type":  "砸伤"
+        ]),
+        ([      name:                 谈笑退天兵,
+                "action":
+"$N仰天长笑，看也不看，一招"+HIY"「谈笑退天兵」"NOR+"，随手一棒向$n当头砸下",
+
+                "dodge":                0,
+     "parry":     0,
+                "damage":               45,
+                "damage_type":  "砸伤"
+        ]),
+        ([      name:                 勇斗二郎神,
+                "action":
+"$N一个虎跳，越过$n头顶，手中$w抡个大圆，呼！地一声砸向$n$l",
+                "dodge":                10,
+     "parry":   -20,
+                "damage":               50,
+                "damage_type":  "砸伤"
+        ]),
+        ([      name:                 脱困老君炉,
+                "action":
+"$N一声巨喝，好一个"+HIW"「脱困老君炉」"NOR+"！\n就在$n一愣之间，$N手中$w已是呼啸而至，扫向$n的$l",
+                "dodge":               10,
+     "parry":   -15,
+                "damage":               45,
+                "damage_type":  "砸伤"
+        ]),
+        ([      name:                 醉闹蟠桃会,
+                "action":
+"$N使出"+HIB"「醉闹蟠桃会」"NOR+"，脚步跄踉，左一棒，右一棒，\n打得$n手忙脚乱，招架不迭",
+                "dodge":                -5,
+     "parry":     -5,
+                "damage":               50,
+                "damage_type":  "砸伤"
+        ]),   
+        ([      name:                 三打白骨精,
+                "action":
+"$N连翻几个筋斗云，手中$w转得如风车一般，\n一连三棒从半空中击向$n顶门",
+                "dodge":                5,
+     "parry":   -10,
+                "damage":               60,
+                "damage_type":  "砸伤"
+        ]),   
+        ([      name:                 千钧澄玉宇,
+                "action":
+"$N手中$w一抖，化为千万道霞光，\n就在$n目眩神摇之时，再一抖，霞光顿收，\n$w已到了$n的$l！这一招有个名堂，叫作"+HIC"「千钧澄玉宇」"NOR+"",
+                "dodge":                0,
+     "parry":   -20,
+                "damage":               65,
+                "damage_type":  "砸伤"
+        ]),
+   ([   name:        乾坤一棒,
+     "action":   "$N将手中$w迎风一挥，幻出万千虚影，蓄力劲发，高举过顶，
+$w对准$n的脑门就砸了下去。这一下要是打中，恐怕连大罗金仙也难逃一命,
+     "parry":   -40,
+     "dodge":   -70,
+     "damage":   320,
+     "damage_type":  "砸伤"
+   ]),
+})
+
+
+int valid_learn(object me)
+{
+        object ob
+
+        if( (int)me->query(max_force) < 150 )
+                return notify_fail(你的内力不够，没有办法练千钧棒法，
+多练些内力再来吧。\n)
+
+        if( !(ob = me->query_temp(weapon))
+        ||      (string)ob->query(skill_type) != stick )
+                return notify_fail(你必须先找一根棒子才能练棒法。\n)
+
+        return 1
+}
+
+int valid_enable(string usage)
+{
+        return usage==stick||usage==parry
+}
+
+mapping query_action(object me, object weapon)
+{
+   int i
+   mapping* m_actions
+   if( !me->query_temp(QJB_perform)) {
+     if(me->query(skill_qianjun-bang)==0) return actionrandom
+     if(random(2))return actionrandom
+     return m_actionsrandom
+   }else {
+     return actioni
+   }
+}
+
+
+int practice_skill(object me)
+{
+        if( (int)me->query(kee) < 50
+        ||      (int)me->query(force) < 5 )
+                return notify_fail(你的内力或气不够，没有办法练习千钧棒法。\n)
+        me->receive_damage(kee, 30)
+        me->add(force, -10)
+        write(你按着所学练了一遍千钧棒法。\n)
+        return 1
+}
+
+int valid_effect(object me, object weapon, string name, int skill)
+{
+}
+
+string perform_action_file(string func)
+{
+return CLASS_D(puti) + /qianjun-bang/ + func
+}
+
+void skill_improved(object me)
+{
+   int m_skill=me->query_skill(qianjun-bang,1)
+   
+   if(m_skill>200&&m_skill%10==0){
+     tell_object(me,HIW你对千钧棒的领悟加深了，你的千钧棒进入了一个新的境界！\nNOR)
+     if(random(me->query(kar))<20){
+        tell_object(me,HIW然而你的心中居然产生了一种失落感！\nNOR)
+        return
+     }
+     if(random(me->query(int))<20){
+       tell_object(me,HIW然而你的心中升起一种惆怅的感觉，仿佛有一丝重要的东西没有抓住。\nNOR)
+       return
+     }
+     tell_object(me,HIW你突然福至心灵，对千钧棒领悟出了一招新的用法！\nNOR)
+     tell_object(me,请为这招取一个名字：)
+     input_to( (: call_other, __FILE__, name_skill, me:))
+   }
+   return
+}
+
+void name_skill(object me, string arg)
+{
+   mapping* m_actions
+   mapping m_act=()
+   int content
+   string msg
+
+   if(!pointerp(m_actions))m_actions=({})
+   
+   m_act+=(damage)
+   m_act+=(dodge :content)
+   m_act+=(parry :content)
+   m_act+=(force :content)
+   m_act+=(damage_type)
+
+   if(!arg||arg== )arg=千钧棒绝技+chinese_number(sizeof(m_actions)+1)
+   m_act+=(name)
+                  +skill_tailrandom
+   m_act+=(action)
+   m_actions+=({m_act})
+   me->set(skill_qianjun-bang,m_actions)
+}
+
+

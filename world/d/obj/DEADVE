@@ -1,0 +1,92 @@
+*** Modified files in VE when it aborted on Wed Jun  7 22:19:23 2000
+*** File Name is quest_kl.c
+
+inherit F_CLEAN_UP;
+#include <ansi.h>
+#include <quest.h>
+
+mapping quests_armor = ([
+      10 : ({ "find", HIW"∞◊ ı" NOR,   "baishu",          "", "1" }),
+      15 : ({ "find", HIC"∂œ–¯"NOR,    "duanxu"           "", "1" }),
+      20 : ({ "find", HIR"∫Ïª®"NOR,    "honghua",     "", "1" }),
+      30 : ({ "find", HIG"¡´◊”"NOR,    "lianzi",           "", "1" }),
+      40 : ({ "find", RED"¥©…Ωº◊"NOR,   "chuanshan jia",      "", "1" }),
+      50 : ({ "find", HIY"–”» "NOR,     "xingren",       "", "1" }),
+     100 : ({ "find", HIC"±¥ƒ∏"NOR,     "bei mu",              "", "1" }),
+     110 : ({ "find", HIB"∂¿ªÓ"NOR,     "du huo",              "", "1" }),
+     200 : ({ "find", YEL"¥®ª®Ω∑"NOR,      "chuan huajiao",            "", "1" }),
+    4100 : ({ "find", MAG"¡Èœ…"NOR,     "ling xian",       "", "1" }),
+    4200 : ({ "find", WHT"…˙µÿ"NOR,     "shengdi",         "", "1" }),
+    4300 : ({ "find", HIR"–‹µ®"NOR,     "xiongdan",            "", "1" }),
+    4400 : ({ "find", HIW"±˘∆¨"NOR,     "bingpian",            "", "1" }),
+    4450 : ({ "find", GRN"∂˘ª®"NOR,     "ercha",             "", "1" }),
+    4500 : ({ "find", YEL"ª∆∞ÿ"NOR,      "huang bo",       "", "1" }),
+    4600 : ({ "find", HIG"¡È÷•"NOR,      "lingzhi",      "", "1" }),
+    7000 : ({ "find", CYN"…˙¡˙π«"NOR,    "shenglong gu",         "", "1" }),
+    8000 : ({ "find", RED"—™Ωﬂ"NOR,      "xuejie",         "", "1" }),
+    8100 : ({ "find", HIC"±°∫…"NOR,      "bo he",        "", "1" }),
+    8200 : ({ "find", HIB"∑¿∑Á"NOR,      "fang feng",           "", "1" }),
+    8300 : ({ "find", YEL"ª∆¡¨"NOR,     "huanglian",    "", "1" }),
+    8400 : ({ "find", HIY"¬π»◊"NOR,     "lurong",           "", "1" }),
+    8500 : ({ "find", YEL"˜Íœ„"NOR,     "she xiang",         "", "1" }),
+    9000 : ({ "find", HIW"—©¡´"NOR,     "xuelian",                 "", "1" }),
+   11500 : ({ "find", GRN"ª¢π«æ∆"NOR,     "hugu jiu",              "", "1" }),
+   22000 : ({ "find", MAG"»˝≤≈∑‚ÀËµ§"NOR, "sancai dan",         "", "1" }),
+   23000 : ({ "find", "[1;32m»À[33m≤Œ[35m‘Ÿ[36m‘Ï[37mÕË[m", "zaizao wan",         "", "1" }),
+   32500 : ({ "find", HIG"Á˙ÁÍ∂‡√¬ÕË"NOR,  "duomei wan",          "", "1" }),
+   33000 : ({ "find", HIG"«Â–ƒΩ‚∂æÕË"NOR,  "qingxin wan",        "", "1" }),
+   33500 : ({ "find", HIG"»˝ª®æ≈◊”∏‡"NOR,  "sanhua gao",       "", "1" }),
+   34000 : ({ "find", HIC"«‡˜Ï"NOR,         "qing dai",       "", "1" }),
+   34500 : ({ "find", HIM"–´∑€"NOR,         "xiefen",      "", "1" }),
+   35000 : ({ "find", HIW"»Èœ„"NOR,      "ru xiang",       "", "1" }),
+   35500 : ({ "find", "Œ˜—ÛΩ£",         "west sword",      "", "1" }),
+   36000 : ({ "find", HIW"π∑≤ª¿Ì"NOR,   "baozi",        "", "1" }),
+   36500 : ({ "find", "[1;33m–°œ∫√◊[m", "xiao xiami",       "", "1" }),
+   37000 : ({ "find", "[31m–°”„√Á[m",  "xiao yumiao",        "", "1" }),
+   37500 : ({ "find", "[32mˆÛ”„[m",    "nian yu",       "", "1" }),
+   40000 : ({ "find", HIY"ª§∑®Ù¬Ùƒ"NOR, "jia sha",            "", "1" }),
+   41000 : ({ "find", HIY"Ù¬Ùƒ"NOR,     "jia sha",            "", "1" }),
+   41500 : ({ "find", BLK"∫⁄÷•¬ÈÃ¿‘≤"NOR,"blackty",          "", "1" }),
+   47000 : ({ "find", "[1;36mΩ”„[m",  "jin yu",          "", "1" }),
+   48000 : ({ "find", "[36m≤›”„[m",    "cao yu",         "", "1" }),
+  200000 : ({ "find", "«‡”Ò≈˝≈√",         "pi pa",             "", "1" }),
+  210000 : ({ "find", HIC"∑Ô‘¬µ∂"NOR,     "fengyue dao",          "", "1" }),
+  220000 : ({ "find", YEL"π≈Õ≠ ﬁ¬Ø"NOR,   "shou lu",       "", "1" }),
+  330000 : ({ "find",  HIW"∞◊ƒµµ§"NOR,    "mu dan",      "", "1" }),
+  550000 : ({ "find", HIY"Ú˛¡˙≈€"NOR,   "long pao",           "", "1" }),
+  700000 : ({ "find", HIY"¡¨«Ã"NOR,      "lian qiao",            "", "1" }),
+  800000 : ({ "find", HIY "Ú˛¡˙≈€" NOR, "long pao",           "", "1" }),
+ 2000000 : ({ "find", HIY"ŒÂ≤ ÃÏ“¬"NOR, "tian yi",            "", "1" }),
+ 2100000 : ({ "find", "‘Ì¬ﬁ≈€",         "purple cloth",       "", "1" }),
+ 2200000 : ({ "find", HIY"ΩıÔÁÙ¬Ùƒ"NOR, "jinlan jiasha",      "", "1" }),
+]);
+
+void create()
+{
+  seteuid(getuid());
+  m_keys=order_list(keys(quests_armor));
+}
+
+mapping query_quest(object who)
+{
+  mapping quest;
+  int i;
+  string* info;
+  string *strs = ({
+    "$NœÎœÎÀµµ¿£∫ΩÒÃÏŒ“’˝◊º±∏«Î»À»•’“",
+    "$Nœ∏œÎ¡À“ªœ¬Àµµ¿£∫±æ√≈”–»ÀœÎ“™ ≤√¥",
+    "$Nµ„Õ∑Àµµ¿£∫’‚¿Ô…–»±–©",
+    "$NœÎœÎÀµµ¿£∫ø…∑Ò∞Ô±æ√≈—∞µ√",
+  });  
+  
+  i = quest_accurate_index (m_keys, who->query("combat_exp"));
+  i = quest_random_index (m_keys, i);
+  info=quests_armor[m_keys[i]];
+  
+  quest=(["quest":"’“"+info[IDX_NAME]]);
+  quest+=(["quest_msg":strs[random(sizeof(strs))]+info[IDX_NAME]+
+           "£¨ƒ„ø…∑Ò»•—∞“ª–©¿¥£ø\n"]);
+  quest+=(["bonus":log10(who->query("combat_exp"))*50+10]);
+  quest+=(["reward_msg":"$N–¶µ¿£∫≤ª¥Ì≤ª¥Ì£¨”–¿Õƒ„¡À°£\n"]);
+  return quest;
+}

@@ -1,0 +1,7 @@
+#/d/qujing/tianzhu/npc/wu.c
+dbase (["unit":"位","gin":200,"race":"人类","sen":1300,"can_speak":1,"attitude":"heroism","name":"吴老板","gender":"男性","combat_exp":10749,"force_factor":17,"kar":19,"max_sen":1300,"str":30,"cps":21,"eff_kee":200,"int":21,"id":"wu laoban","cor":28,"age":40,"con":29,"kee":200,"spi":29,"max_kee":200,"per":14,"actions":,"force":200,"startroom":"/d/qujing/tianzhu/shoushi","eff_gin":200,"max_force":200,"max_gin":200,"mana":0,"shop_id":({"laoban",}),"eff_sen":1300,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"default_actions":,"atman":0,"vendor_goods":(["jinjie":"/d/qujing/tianzhu/obj/jinjie","zuanjie":"/d/qujing/tianzhu/obj/zuanjie","yinjie":"/d/qujing/tianzhu/obj/yinjie","baojie":"/d/qujing/tianzhu/obj/baojie","baijie":"/d/qujing/tianzhu/obj/baijie",]),])
+skills (["blade":30,"parry":30,"unarmed":30,"dodge":30,])
+learned (["blade":0,"parry":0,"unarmed":0,"dodge":0,])
+SAVE_NAME "tianzhu_wu_laoban"
+price_ratio 10
+close_time 1156373643

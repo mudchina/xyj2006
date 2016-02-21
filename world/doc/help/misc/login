@@ -1,0 +1,43 @@
+<pre>
+────────────────────────────
+
+参加游戏：
+
+游戏需在中文环境下运行，如果你看不了中文的话，可去查寻相
+关信息。
+
+如果你用的是工作站，中文平台简介(CXTERM)应是最好的选择，
+安装方便且用途广泛。其他机型的中文软件五花八门，各有各的
+优点，不妨去看看网上阅读中文，应能找到一个适合的。
+
+然后 
+    telnet mud.compubell.com 6666 
+ or telnet 207.76.64.4 6666 即可。
+
+如果使用的工作站已有中文系统，使用 NETSCAPE 也可进来。
+按如下步骤：
+　　a.　Option-->Document Encoding-->Simplified Chinese (GB)
+　　b.　Option-->General Perferences-->Application
+
+　　在　Telnet Application 一项内填入
+　　　　cxterm -e telnet %h %p
+
+怎样用 Win95/Win3.X 进入：最简单的办法是打开一个telnet软件，
+在地址项中填入：
+　　207.76.64.4 6666 
+　　( 6666 是 port number )。或从上方连线一点即到。
+
+当然你必须事先在 Netscape 或 Internet Explorer中设好你要
+用的telnet 软件。
+
+有一点要注意：有些人说敲入的东西在屏幕上显示不出，那并不
+是连线的问题。当 telnet 窗口跳出后：
+
+　　Terminal---->Perference---->Local Echo
+
+这样你在键盘上的敲入就能回显到屏幕上了．
+
+西天取经，一路顺风
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+────────────────────【西游记】工作组
+</pre>

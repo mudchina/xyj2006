@@ -1,0 +1,7 @@
+#/d/qujing/baoxiang/npc/xijiang.c
+dbase (["actions":,"startroom":"/d/qujing/baoxiang/xiqi","max_gin":260,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"mana":0,"can_speak":1,"age":35,"eff_sen":754,"kee":1378,"max_kee":1378,"race":"人类","shop_id":({"xijiang",}),"vendor_goods":(["xihu":"/d/qujing/baoxiang/obj/xihu","xipen":"/d/qujing/baoxiang/obj/xipen","xiwan":"/d/qujing/baoxiang/obj/xiwan",]),"name":"锡匠","default_actions":,"atman":0,"gender":"男性","force":0,"gin":260,"sen":754,"combat_exp":1000,"shen_type":1,"kar":15,"str":25,"max_sen":754,"attitude":"friendly","cps":14,"id":"xi jiang","int":19,"cor":21,"eff_kee":1378,"con":28,"eff_gin":260,"spi":10,"per":34,"unit":"位",])
+skills (["unarmed":100,])
+learned (["unarmed":0,])
+SAVE_NAME "baoxiang_xi_jiang"
+price_ratio 10
+close_time 1156380961

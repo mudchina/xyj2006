@@ -1,0 +1,5 @@
+#/d/jz/npc/yang.c
+dbase (["attitude":"friendly","vendor_goods":(["zhujian":"/d/jz/obj/zhujian","dadao":"d/jz/obj/dadao","fuchen":"/d/jz/obj/fuchen",]),"max_gin":220,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"combat_exp":1000,"max_sen":300,"kar":12,"str":27,"unit":"位","max_kee":300,"sen":300,"cps":14,"int":16,"id":"huoji","cor":19,"race":"人类","default_actions":,"eff_kee":300,"con":30,"spi":30,"eff_gin":220,"gin":220,"per":15,"shop_id":({"huoji",}),"actions":,"eff_sen":300,"name":"伙计","can_speak":1,"age":18,"gender":"男性","kee":300,"daoxing":1000,"shop_title":"小伙计","startroom":"/d/jz/zhahuopu",])
+SAVE_NAME "npc_save"
+price_ratio 10
+close_time 1156374590

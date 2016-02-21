@@ -1,0 +1,7 @@
+#/d/qujing/zhuzi/npc/pang.c
+dbase (["max_sen":1092,"gin":308,"max_gin":308,"combat_exp":5000,"sen":1092,"channel":(["tell_count":0,"last_tell":1154955610,]),"vendor_goods":(["kuang":"/d/obj/misc/kuang","pipao":"/d/obj/cloth/shoupi","fork":"/d/obj/weapon/fork/fork",]),"atman":0,"eff_gin":308,"actions":,"name":"胖店主","default_actions":,"gender":"男性","force":0,"can_speak":1,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"mana":0,"shen_type":1,"kar":26,"eff_sen":1092,"shop_id":({"dianzhu",}),"race":"人类","str":22,"max_kee":1300,"unit":"位","cps":14,"attitude":"friendly","int":29,"id":"pang dianzhu","cor":21,"con":28,"spi":13,"per":34,"eff_kee":1300,"age":40,"kee":1300,"startroom":"/d/qujing/zhuzi/zahuo",])
+skills (["unarmed":50,])
+learned (["unarmed":0,])
+SAVE_NAME "zhuzi_pang_dianzhu"
+price_ratio 10
+close_time 1156375963

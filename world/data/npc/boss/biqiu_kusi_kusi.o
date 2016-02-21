@@ -1,0 +1,7 @@
+#/d/qujing/biqiu/npc/kusikusi.c
+dbase (["mana":0,"attitude":"friendly","max_gin":356,"eff_sen":1066,"combat_exp":5000,"eff_kee":1066,"sen":1066,"atman":0,"vendor_goods":(["niutang":"/d/qujing/biqiu/obj/niutang","tangmian":"/d/qujing/biqiu/obj/tangmian",]),"name":"库司库司","gender":"男性","force":0,"actions":,"race":"人类","shop_id":({"kusi",}),"kar":22,"can_speak":1,"str":28,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"unit":"位","max_kee":1066,"cps":30,"max_sen":1066,"shop_title":"库司","int":25,"id":"kusi kusi","cor":28,"gin":356,"con":13,"spi":16,"per":21,"shen_type":1,"age":30,"default_actions":,"eff_gin":356,"kee":1066,"startroom":"/d/qujing/biqiu/niurou",])
+skills (["unarmed":30,])
+learned (["unarmed":0,])
+SAVE_NAME "biqiu_kusi_kusi"
+price_ratio 10
+close_time 1156377861

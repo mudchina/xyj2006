@@ -1,0 +1,142 @@
+//Cracked by Roath
+inherit F_CLEAN_UP;
+
+#include <ansi.h>
+#include <quest.h>
+
+// the quest format is the following mapping:
+// daoxing :     type     name     id            object         amount
+//--------------------------------------------------------------------
+//  1000   : ({ "find",  "√ÿÛ≈",   "mi ji" ,     "",             "1" }), 
+//  5000   : ({ "give",  "‘÷√Ò",   "zai min" ,   "∞◊“¯(silver)", "5" }), 
+// 12000   : ({ "kill",  "∞◊π«æ´", "baigu jing", "",             "3" });
+ 
+//’““ª±æ√ÿÛ≈£¨æ»º√‘÷√ÒŒÂ¡Ω“¯◊”£¨»˝¥Ú∞◊π«æ´£Æ£Æ£Æ£Æ£Æ£Æ
+
+mapping quests_cloth = ([
+      10 : ({ "find", "¥÷≤º“¬",         "linen",              "", "1" }),
+      20 : ({ "find", "∆§±≥–ƒ",         "pi beixin",          "", "1" }),
+      30 : ({ "find", "∆§≈€",           "pipao",              "", "1" }),
+      40 : ({ "find", HIG"«·…¥≥§»π"NOR, "skirt",             "", "1" }),
+     100 : ({ "find", "±¯∑˛",           "cloth",              "", "1" }),
+     200 : ({ "find", "±ÃÀÆƒﬁ…—",       "nichang",            "", "1" }),
+     300 : ({ "find", "¬Ìπ”",           "magua",              "", "1" }),
+     500 : ({ "find", "«‡∂–∞¿",         "ao",                 "", "1" }),
+     600 : ({ "find", "≥Ò≈€",           "choupao",            "", "1" }),
+     700 : ({ "find", "≥§≈€",           "changpao",           "", "1" }),
+     800 : ({ "find", "Ã“∑˚÷Ω",         "paper seal",         "", "1" }),
+    1000 : ({ "find", "π¨≈€",           "gong pao",           "", "1" }),
+    1100 : ({ "find", "π¨»π",           "gong qun",           "", "1" }),
+    2000 : ({ "find", "∑€∫Ï≥Ò…¿",       "pink cloth",         "", "1" }),
+    3000 : ({ "find", "ŒÂ…´√∑«≥∫Ï»π",   "pink skirt",         "", "1" }),
+    4000 : ({ "find", "≥§≈€",           "chang pao",          "", "1" }),
+    4100 : ({ "find", "≈˚Ã∫",           "pi tan",             "", "1" }),
+    4200 : ({ "find", "∞◊≈˚Ã∫",         "bai pitan",          "", "1" }),
+    4300 : ({ "find", "≤ …´≈˚Ã∫",       "caise pitan",        "", "1" }),
+    4400 : ({ "find", "◊œ»ﬁ≈˚∑Á",       "zirong pifeng",      "", "1" }),
+    4500 : ({ "find", "¥◊Ã≥◊”",         "tanzi",              "", "1" }),
+    5100 : ({ "find", "∞¢¿≠≤Æ≥§≈€",     "chang pao",          "", "1" }),
+    5200 : ({ "find", "Ã´º´µ¿≈€",       "cloth",              "", "1" }),
+    6100 : ({ "find", "”°ª®»π",         "skirt",              "", "1" }),
+    6200 : ({ "find", " ¯—¸Õ≤»π",       "skirt",              "", "1" }),
+    6300 : ({ "find", "ÀÆ»æ≤ »π",       "skirt",              "", "1" }),
+    6400 : ({ "find", "øÌ…ÌÀÿ≥§»π",     "skirt",              "", "1" }),
+    6500 : ({ "find", "∂Ã≈€»π",         "skirt",              "", "1" }),
+    7100 : ({ "find", "∞◊≈€",           "bai pao",            "", "1" }),
+    7200 : ({ "find", "πŸ≈€",           "guan pao",           "", "1" }),
+    7300 : ({ "find", "Ù‰∫Ï»π",         "hong qun",           "", "1" }),
+    7400 : ({ "find", "¥Ûª®≈€",         "hua pao",            "", "1" }),
+    7500 : ({ "find", "ÀÆ”°ª®»π",       "hua qun",            "", "1" }),
+    7600 : ({ "find", "œ¨≈£∆§“¬",       "xiniu piyi",         "", "1" }),
+    7700 : ({ "find", "ƒÒ√´",           "niao mao",           "", "1" }),
+    8100 : ({ "find", "—√“€∑˛",         "yayi cloth",         "", "1" }),
+    8200 : ({ "find", "œ¨∆§±≥–ƒ",       "xipi beixin",        "", "1" }),
+    8300 : ({ "find", "≈£∆§“¬",         "niupi yi",           "", "1" }),
+    8400 : ({ "find", "–‹∆§∂Ã≈€",       "xiongpi duanpao",    "", "1" }),
+    8500 : ({ "find", "ª¢∆§»π",         "hupi qun",           "", "1" }),
+    8600 : ({ "find", "¿«∆§ø„",         "langpi qun",         "", "1" }),
+    8700 : ({ "find", "÷Ì√´",           "zhu mao",            "", "1" }),
+    8800 : ({ "find", "À¿¿œ Û",         "dead mouse",         "", "1" }),
+    8900 : ({ "find", "Œ˜πœ∆§",         "xigua pi",           "", "1" }),  
+    9000 : ({ "find", "’Ω≈€",           "zhan pao",           "", "1" }),
+   10000 : ({ "find", "∞Àÿ‘µ¿≈€",       "bagua pao",          "", "1" }),
+   12000 : ({ "find", "∆∆≤ºÕ∑",         "po butou",           "", "1" }),
+   13000 : ({ "find", "”√π˝µƒ—¿«©",     "used yaqian",        "", "1" }),
+   14000 : ({ "find", "¥Û ØÕ∑",         "big stone",          "", "1" }),
+   15000 : ({ "find", "∂œ± ",           "duan bi",            "", "1" }),
+   20000 : ({ "find", "¿«∆§»π",         "wolf skirt",         "", "1" }),
+   21000 : ({ "find", "Ωıª®≈€",         "jinhua pao",         "", "1" }),
+   21500 : ({ "find", "≤Àµ∂",           "cai dao",            "", "1" }),
+   22000 : ({ "find", " ﬁ∆§»π",         "shoupi qun",         "", "1" }),
+   23000 : ({ "find", HIG "∞≈Ω∂»π" NOR, "palm skirt",         "", "1" }),
+   31000 : ({ "find", "∫⁄Óº∆§",         "heipi pi",           "", "1" }),
+   32000 : ({ "find", "◊ÿ–‹∆§",         "zongxiong pi",       "", "1" }),
+   33000 : ({ "find", "«‡±∑∆§",         "qingbei pi",         "", "1" }),
+   34000 : ({ "find", "√Õ·Ô∆§",         "mengma pi",          "", "1" }),
+   41000 : ({ "find", "ÍÛ≈£∆§",         "maoniu pi",          "", "1" }),
+   42000 : ({ "find", "ÀÆ≈£∆§",         "shuiniu pi",         "", "1" }),
+   43000 : ({ "find", "“∞œÛ∆§",         "yexiang pi",         "", "1" }),
+   44000 : ({ "find", "π´¬π∆§",         "gonglu pi",          "", "1" }),
+   45000 : ({ "find", "≤Ú∆§",           "chai pi",            "", "1" }),
+   47000 : ({ "find", "Ã˙º◊",           "iron armor",         "", "1" }),
+   51000 : ({ "find", "ª®±™∆§",         "huabao pi",          "", "1" }),
+   52000 : ({ "find", "∞◊ª¢∆§",         "baihu pi",           "", "1" }),
+   53000 : ({ "find", "∫⁄ª¢∆§",         "heihu pi",           "", "1" }),
+   54000 : ({ "find", "Ω ®∆§",         "jinshi pi",          "", "1" }),
+   55000 : ({ "find", "æÌ√´ ®∆§",       "juanmao pi",         "", "1" }),
+   56000 : ({ "find", "…Ω√®∆§",         "shanmao pi",         "", "1" }),
+   60000 : ({ "find", "ª¢∆§≈˚∑Á",       "tiger surcoat",      "", "1" }),
+   70000 : ({ "find", "¥Û∫ÏÚ˛≈€",       "mangpao",            "", "1" }),
+   71001 : ({ "find", "∫Ò√ﬁø„",         "cloth",              "", "1" }),
+   71002 : ({ "find", "∫Ò√ﬁ∞¿",         "cloth",              "", "1" }),
+   71003 : ({ "find", "∫Ò¬Èø„",         "cloth",              "", "1" }),
+   72043 : ({ "find", "œ∏Ωı≥§»π",       "skirt",              "", "1" }),
+   72044 : ({ "find", "œ∏∂–≥§»π",       "skirt",              "", "1" }),
+   72111 : ({ "find", "ª®√ﬁ∂Ã»π",       "skirt",              "", "1" }),
+   72244 : ({ "find", "œ∏∂–±°»π",       "skirt",              "", "1" }),
+   80047 : ({ "find", "◊œª®œ∏…¥’Ω»π",   "skirt",              "", "1" }),
+   80049 : ({ "find", "◊œª®¬È…¥’Ω»π",   "skirt",              "", "1" }),
+   90000 : ({ "find", "Ã´º´µ¿≈€",       "cloth",              "", "1" }),
+  120000 : ({ "find", "‰ÀÀÆ¬ﬁ“¬",       "fancy skirt",        "", "1" }),
+  300000 : ({ "find", "Ωµƒß≈€",         "xiangmo pao",        "", "1" }),
+  310000 : ({ "find", "Ωı–Â’Ω≈€",       "zhanpao",            "", "1" }),
+  320000 : ({ "find", "ª∆ª¢∆§",         "huang hupi",         "", "1" }),
+  350000 : ({ "find", " ﬁ∆§≈˚∑Á",       "shoupi pifeng",      "", "1" }),
+  550000 : ({ "find", HIY"Ú˛¡˙≈€"NOR,   "long pao",           "", "1" }),
+  700000 : ({ "find", "¥Û∫ÏÚ˛≈€",       "mangpao",            "", "1" }),
+  750000 : ({ "find", "∏≤º≥§≈€",       "cloth",              "", "1" }),
+  800000 : ({ "find", HIY "Ú˛¡˙≈€" NOR, "long pao",           "", "1" }),
+ 2000000 : ({ "find", HIY"ŒÂ≤ ÃÏ“¬"NOR, "tian yi",            "", "1" }),
+ 2200000 : ({ "find", HIY"ΩıÔÁÙ¬Ùƒ"NOR, "jinlan jiasha",      "", "1" }),
+
+]);
+
+void create()
+{
+  seteuid(getuid());
+  m_keys=order_list(keys(quests_cloth));
+}
+
+mapping query_quest(object who)
+{
+  mapping quest;
+  int i;
+  string* info;
+  string *strs = ({
+    "$NœÎœÎÀµµ¿£∫ΩÒÃÏŒ“’˝◊º±∏«Î»À»•’“",
+    "$Nœ∏œÎ¡À“ªœ¬Àµµ¿£∫±æ√≈”–»ÀœÎ“™ ≤√¥",
+    "$Nµ„Õ∑Àµµ¿£∫’‚¿Ô…–»±–©",
+    "$NœÎœÎÀµµ¿£∫ø…∑Ò∞Ô±æ√≈—∞µ√",
+  });  
+  
+  i = quest_accurate_index (m_keys, who->query("combat_exp"));
+  i = quest_random_index (m_keys, i);
+  info=quests_cloth[m_keys[i]];
+  
+  quest=(["quest":"’“"+info[IDX_NAME]]);
+  quest+=(["quest_msg":strs[random(sizeof(strs))]+info[IDX_NAME]+
+           "£¨ƒ„ø…∑Ò»•—∞“ª–©¿¥£ø\n"]);
+  quest+=(["bonus":log10(who->query("combat_exp"))*40+10]);
+  quest+=(["reward_msg":"$N–¶µ¿£∫≤ª¥Ì≤ª¥Ì£¨”–¿Õƒ„¡À°£\n"]);
+  return quest;
+}

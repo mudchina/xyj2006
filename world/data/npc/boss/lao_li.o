@@ -1,0 +1,7 @@
+#/d/gao/npc/laoli.c
+dbase (["unit":"位","con":26,"gin":548,"spi":28,"per":15,"actions":,"name":"老李头","attitude":"friendly","gender":"男性","mana":0,"startroom":"/d/gao/tiepu","title":"铁匠","eff_sen":1298,"max_gin":548,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"vendor_goods":(["dagger":"/obj/example/dagger","sword":"/d/gao/obj/sword","blade":"/d/gao/obj/blade",]),"kee":962,"long":"铁铺的主人．","max_kee":962,"race":"人类","id":"lao li","chat_chance":5,"can_speak":1,"age":56,"chat_msg":({"老李头一脚踢在小学徒的屁股上，嚷道：不许偷懒！","老李头对小学徒嚷道：教你多少次了！你怎么这么笨！",}),"eff_gin":548,"sen":1298,"force":0,"shen_type":1,"combat_exp":6800,"max_sen":1298,"kar":24,"eff_kee":962,"default_actions":,"str":11,"atman":0,"cps":23,"int":25,"cor":23,])
+skills (["unarmed":15,])
+learned (["unarmed":0,])
+SAVE_NAME "lao_li"
+price_ratio 10
+close_time 1156154241

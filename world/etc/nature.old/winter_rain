@@ -1,0 +1,65 @@
+#  Spring rainny day phase
+#  The definition of day phase
+#  Format:
+#       length          length of the phase in seconds
+#       time_msg        msg sent to outdoors user at phase starts
+#       desc_msg        desc looked during the period before next phase
+#       event_fun       the function is called in NATURE_D at the phase starts
+#
+#  Phase starts at 0:00 every day
+#
+#  Note the length of a phase is in minutes of a day.
+#
+
+# The two lines defines the data format in 2 lines as
+#
+#  field1:field2:field3....
+#  format1:format2:format3....
+#
+
+length:time_msg:desc_msg:event_fun
+%d:%s:%s:%s
+
+# The following lines are data, each non-blank line will fill in each field
+# in each record sequently.
+
+240
+ [1;36m天渐渐亮了，竟飘起了雪花，一片片轻轻无言地飘落。 [2;37;0m
+ [1;36m 凌晨，东方的天空布满了灰蒙蒙的云层 [2;37;0m
+event_dawn
+
+
+120
+ [1;37m雪加着绵绵的小雨无声的下着，不一会地上就湿了。 [2;37;0m
+ [1;37m 清晨，小雪夹杂着雨无声无息的下着 [2;37;0m
+event_sunrise
+
+180
+ [1;37m雪越下越大了，竟然飘起了棉絮般的大雪，纷纷扬扬好象没个终了的时候。 [2;37;0m
+ [1;37m 上午，棉絮般的大雪纷纷扬扬的从灰暗的天空中飘落下来 [2;37;0m
+event_morning
+
+180
+ [1;37m已经是正午了，雪仍然下着，从苍穹中撒落下来的鹅毛。大地一片苍茫。 [2;37;0m
+ [1;37m 正午时分，天上的云严严实实的，雪下个不停，天地已是一片洁白了 [2;37;0m
+event_noon
+
+180
+ [1;36m雪终于停了，空气凉丝丝的透着一股凉意，太阳出来了照的大地一片银白。 [2;37;0m
+ [1;36m 下午，太阳也出来了，大地银装素裹，分外悦目 [2;37;0m
+event_afternoon
+
+180
+ [1;34m傍晚了，天地间渐渐暗了下来。 [2;37;0m
+ [1;34m 傍晚，天渐渐黑了，雪色反光倒也并不很黑 [2;37;0m
+event_evening
+
+120
+ [1;34m夜晚降临了，满目洁白的世界，粉砌琼雕一般。 [2;37;0m
+ [1;34m 夜晚，夜幕笼罩著大地，万物在洁白的厚雪下沉沉睡去 [2;37;0m
+event_night
+
+240
+ [1;34m已经是午夜了，天空黑沉沉一片，没有一丝星光。 [2;37;0m
+ [1;34m 深夜，夜幕低垂，星星眨着眼 [2;37;0m
+event_midnight

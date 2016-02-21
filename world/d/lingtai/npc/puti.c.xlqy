@@ -1,0 +1,205 @@
+#include <ansi.h>
+#define CNAME HIR"“元神护体大法”"NOR
+inherit NPC;
+inherit F_MASTER;
+string ask_for_hutidafa();
+void create()
+{
+       set_name("菩提祖师", ({"master puti","puti", "master"}));
+       set("long", "大觉金仙没垢姿，西方妙相祖菩提\n");
+       set("title", "斜月三星");
+       set("gender", "男性");
+       set("age", 100);
+   set("class", "taoist");
+       set("attitude", "friendly");
+       set("shen_type", 1);
+       set("rank_info/respect", "老师祖");
+       set("per", 26);
+   set("looking", "玉面多光润，苍髯颌下飘，金睛飞火焰，长目过眉梢。");
+   set("int", 30);
+       set("max_kee", 5000);
+       set("max_gin", 1000);
+       set("max_sen", 5000);
+       set("force", 5000);
+       set("max_force", 2500);
+       set("force_factor", 150);
+       set("max_mana", 2500);
+       set("mana", 5000);
+       set("mana_factor", 150);
+       set("combat_exp", 3000000);
+       set_skill("literate", 150);
+       set_skill("unarmed", 150);
+       set_skill("dodge", 170);
+       set_skill("parry", 170);
+set_skill("sword",150);
+set_skill("liangyi-sword", 150);
+   set_skill("stick", 150);
+   set_skill("spells", 200);
+   set_skill("dao", 200);
+   set_skill("puti-zhi", 150);
+   set_skill("wuxiangforce", 180);
+   set_skill("force", 180);
+   set_skill("qianjun-bang", 180);
+   set_skill("jindouyun", 180);
+   map_skill("spells", "dao");
+   map_skill("unarmed", "puti-zhi");
+   map_skill("force", "wuxiangforce");
+   map_skill("stick", "qianjun-bang");
+   map_skill("parry", "qianjun-bang");
+   map_skill("dodge", "jindouyun");
+   set("hunti_dafa_level", 10);
+   set("chat_chance_combat", 100);
+        set("chat_msg_combat", ({
+     (: cast_spell, "huti" :),
+     (: cast_spell, "light" :),
+     (: cast_spell, "dingshen" :),
+     (: cast_spell, "thunder" :)
+        }) );
+        set("inquiry", ([
+     "元神护体大法" : (: ask_for_hutidafa :),
+     ]) );
+create_family("方寸山三星洞", 1, "蓝");
+setup();
+
+        carry_object("/d/lingtai/obj/pao")->wear();
+        carry_object("/d/lingtai/obj/shoe")->wear();
+        carry_object("/d/lingtai/obj/putibang")->wield();
+}
+
+void attempt_apprentice(object ob)
+{   ob=this_player();
+   if( (string)ob->query("family/family_name")=="方寸山三星洞") {
+   if ((int)ob->query("daoxing") < 300000 ) {
+     command("say 我们修真之士最重的就是道行，" + RANK_D->query_respect(ob) + "还需多加努力才能早悟大道。\n");
+   return;
+   }
+/*
+   if( (int)ob->query("pending/kick_out")) {
+   command("say 这位" + RANK_D->query_respect(ob) + "反复无常，老夫不原再收你为徒了！\n");
+   command("sigh");
+   return;
+   }
+*/
+   if ((int)ob->query_int() < 35) {
+   command("say 这位" + RANK_D->query_respect(ob) + "悟性太低，恐怕收了你也难有作为！\n");
+   command("sigh");
+   return;
+   }
+   if( (int)ob->query_skill("dao", 1) < 100 ) {
+   command("say 这位" + RANK_D->query_respect(ob) + "对我道家仙法领会还不够深，现在收你也是勉为其难，不如作罢！\n");
+   command("sigh");
+   return;
+   }
+        command("smile");
+        command("say 很好，" + RANK_D->query_respect(ob) + "多加努力，他日必定有成。");
+        command("recruit " + ob->query("id") );
+        message("system", HIY"方寸山又多了一个弟子  "+this_player()->name()+HIW"
+                方寸山的势力加强了。\n"NOR,users());
+        
+   return;
+   }
+        command("shake");
+        command("say 老夫不收外门弟子，" + RANK_D->query_respect(ob) + "还是另寻他人吧！\n");
+        return;
+}
+int recruit_apprentice(object ob)
+{
+        if( ::recruit_apprentice(ob) )
+                ob->set("class", "taoist");
+}
+
+int accept_fight(object me, object ob)
+{   ob=this_player();
+   command("say " + RANK_D->query_rude(ob) + "杀心太重，恐祸不久已！\n");
+   return 0;
+}
+void die()
+{
+
+        if( environment() ) {
+        message("sound", "\n\n菩提祖师微皱眉头，道：这厮果是个天成地就的！\n\n",
+ environment());
+        command("sigh");
+        message("sound", "\n菩提祖师身形一转，化做青烟走了。。。\n\n", environment());
+        }
+
+        destruct(this_object());
+}
+
+
+void init()
+{
+        add_action("do_lian_hutidafa", "lian_huti_dafa");
+}
+
+int do_lian_hutidafa(string arg)
+{
+   object me=this_player();
+   int level,exp,forcepoint;
+   if(me->query_temp("lian_hutidafa_command") != 1) return 0;
+   me->set_temp("lian_hutidafa_command",0);
+   exp=me->query("combat_exp");
+   forcepoint=me->query("max_mana");
+   me->command_function("say 弟子愿意潜心修练本门绝学。");
+   level=me->query("huti_dafa_level");
+   if (exp<100000*level+1) return command("say 虽然你诚心修练，不过以你的道行怕是一无所成。");
+   if (forcepoint<150*level+1) return command("say 虽然你诚心修练，不过以你的法力修为怕是一无所成。");
+   command("say 既是你如此诚心，我便教与你学。");
+   me->start_busy(30);
+   this_object()->start_busy(30);
+   me->set_temp("death_msg","因练"+CNAME+HIM+"过度，走火入魔而死。\n");
+   message_vision(HIY"\n\n$N随着菩提祖师的口诀学起"+CNAME+HIY+"的"+HIR+"第"+chinese_number(level+1)+"重"+HIY+"来。\n"NOR,me);
+   call_out("now_lian_hutidafa",30);
+   return 1;
+}
+
+int now_lian_hutidafa(object ob)
+{
+object me=this_player();
+int can,level;
+level=me->query("huti_dafa_level");
+can=me->query_kar()+me->query_con()+me->query_int()+me->query_spi();
+if (random(can)>(50+level+1))
+{
+message_vision(HIW"\n\n只见$N头上冒出一股青烟，$N逝去额头的汗水。\n"NOR,me);
+message_vision(HIY"$N终于把方寸精典"+CNAME+HIY+"的"+HIR+"第"+chinese_number(level+1)+"重"+HIY+"习成。\n"NOR,me);
+me->add("sen",-100*(level+1));
+me->add("max_mana",-5*(level+1));
+me->add("huti_dafa_level",1);
+//成功
+}
+else
+{
+message_vision(HIR"\n\n$N突然头上黑气直冲而出，嗓子一甜，一口鲜血喷了出来。\n"NOR,me);
+message_vision(HIY"$N练习方寸精典"+CNAME+HIY+"的"+HIR+"第"+chinese_number(level+1)+"重"+HIY+"失败了。\n"NOR,me);
+me->add("sen",-150*(level+1));
+me->add("max_mana",-2*(level+1));
+//失败
+}
+return 1;
+}
+
+string ask_for_hutidafa()
+{
+   object me=this_player();
+   if (me->query("huti_dafa_level")==10)
+     {command("say 果然是我三星洞的高徒，能练成这"+CNAME+"第十重之人，世上屈指可数。");
+     command("haha");
+     return ("不错不错！");
+     }
+
+   if (me->query("family/family_name") == "方寸山三星洞" ) {
+     command("say 你可要想好了，练这大法可不是一朝一昔之事。");
+     command("hmm");
+     command("say 有时还会“走火入魔”，又要费些法力的。");
+     me->set_temp("lian_hutidafa_command",1);
+     return ("如果想好了，就来我这里练“元神护体大法”(lian_huti_dafa)吧。");
+      }
+   else
+    {
+     command("heng");
+     command("say 此仍本门绝学外人休要多问。");
+     command("kick "+me->query("id"));
+     return ("还不快走！");
+     }
+   }

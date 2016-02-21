@@ -1,0 +1,102 @@
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+Connected to address server on localhost port 8888
+
+Loading preloaded files ...
+Initializations complete.
+
+Accepting connections on port 5555.
+Broken connection during add_message.
+
+执行时段错误：*Wrong permissions for opening file /data/topten/rich.o for overwrite.
+"No such file or directory"
+
+程式：adm/daemons/toptend.c 第 56 行
+物件: /adm/daemons/toptend
+呼叫来自：adm/daemons/logind.c 的 get_passwd() 第 582 行，物件： adm/daemons/logind
+呼叫来自：adm/daemons/logind.c 的 enter_world() 第 986 行，物件： adm/daemons/logind
+呼叫来自：adm/daemons/toptend.c 的 topten_checkplayer() 第 18 行，物件： adm/daemons/toptend
+呼叫来自：adm/daemons/toptend.c 的 topten_add() 第 341 行，物件： adm/daemons/toptend
+呼叫来自：adm/daemons/toptend.c 的 topten_save() 第 56 行，物件： adm/daemons/toptend
+
+执行时段错误：*Wrong permissions for opening file /data/topten/rich.o for overwrite.
+"No such file or directory"
+
+程式：adm/daemons/toptend.c 第 56 行
+物件: /adm/daemons/toptend
+呼叫来自：adm/daemons/logind.c 的 get_passwd() 第 582 行，物件： adm/daemons/logind
+呼叫来自：adm/daemons/logind.c 的 enter_world() 第 986 行，物件： adm/daemons/logind
+呼叫来自：adm/daemons/toptend.c 的 topten_checkplayer() 第 18 行，物件： adm/daemons/toptend
+呼叫来自：adm/daemons/toptend.c 的 topten_add() 第 341 行，物件： adm/daemons/toptend
+呼叫来自：adm/daemons/toptend.c 的 topten_save() 第 56 行，物件： adm/daemons/toptend
+
+执行时段错误：*Bad argument 2 to present()
+Expected: object Got: 0.
+
+程式：cmds/std/look.c 第 424 行
+物件: /cmds/std/look
+呼叫来自：adm/daemons/natured.c 的 update_day_phase() 第 211 行，物件： adm/daemons/natured
+呼叫来自：adm/daemons/natured.c 的 event_dawn() 第 482 行，物件： adm/daemons/natured
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+呼叫来自：feature/move.c 的 remove() 第 326 行，物件： d/wiz/npc/zhongkui#265 ("钟馗")
+呼叫来自：cmds/std/look.c 的 look_room() 第 424 行，物件： cmds/std/look
+
+执行时段错误：*Bad argument 2 to present()
+Expected: object Got: 0.
+
+程式：cmds/std/look.c 第 424 行
+物件: /cmds/std/look
+呼叫来自：obj/corpse.c 的 decay() 第 58 行，物件： obj/corpse#400 ("一具枯干的骸骨")
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+呼叫来自：feature/move.c 的 remove() 第 326 行，物件： obj/corpse#400 ("一具枯干的骸骨")
+呼叫来自：cmds/std/look.c 的 look_room() 第 424 行，物件： cmds/std/look
+
+执行时段错误：*Bad argument 2 to present()
+Expected: object Got: 0.
+
+程式：cmds/std/look.c 第 424 行
+物件: /cmds/std/look
+呼叫来自：obj/corpse.c 的 decay() 第 58 行，物件： obj/corpse#460 ("一具枯干的骸骨")
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+呼叫来自：feature/move.c 的 remove() 第 326 行，物件： obj/corpse#460 ("一具枯干的骸骨")
+呼叫来自：cmds/std/look.c 的 look_room() 第 424 行，物件： cmds/std/look
+
+执行时段错误：*Bad argument 2 to present()
+Expected: object Got: 0.
+
+程式：cmds/std/look.c 第 424 行
+物件: /cmds/std/look
+呼叫来自：obj/corpse.c 的 decay() 第 58 行，物件： obj/corpse#573 ("一具枯干的骸骨")
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+呼叫来自：feature/move.c 的 remove() 第 326 行，物件： obj/corpse#573 ("一具枯干的骸骨")
+呼叫来自：cmds/std/look.c 的 look_room() 第 424 行，物件： cmds/std/look
+
+执行时段错误：*Bad argument 2 to present()
+Expected: object Got: 0.
+
+程式：cmds/std/look.c 第 424 行
+物件: /cmds/std/look
+呼叫来自：obj/corpse.c 的 decay() 第 58 行，物件： obj/corpse#769 ("一具枯干的骸骨")
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+呼叫来自：feature/move.c 的 remove() 第 326 行，物件： obj/corpse#769 ("一具枯干的骸骨")
+呼叫来自：cmds/std/look.c 的 look_room() 第 424 行，物件： cmds/std/look
+
+执行时段错误：*Bad argument 2 to present()
+Expected: object Got: 0.
+
+程式：cmds/std/look.c 第 424 行
+物件: /cmds/std/look
+呼叫来自：obj/corpse.c 的 decay() 第 58 行，物件： obj/corpse#800 ("一具枯干的骸骨")
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+呼叫来自：feature/move.c 的 remove() 第 326 行，物件： obj/corpse#800 ("一具枯干的骸骨")
+呼叫来自：cmds/std/look.c 的 look_room() 第 424 行，物件： cmds/std/look
+
+执行时段错误：*Bad argument 2 to present()
+Expected: object Got: 0.
+
+程式：cmds/std/look.c 第 424 行
+物件: /cmds/std/look
+呼叫来自：obj/corpse.c 的 decay() 第 58 行，物件： obj/corpse#806 ("一具枯干的骸骨")
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+呼叫来自：feature/move.c 的 remove() 第 326 行，物件： obj/corpse#806 ("一具枯干的骸骨")
+呼叫来自：cmds/std/look.c 的 look_room() 第 424 行，物件： cmds/std/look

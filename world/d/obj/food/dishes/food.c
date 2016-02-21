@@ -1,0 +1,117 @@
+
+inherit ITEM;
+inherit F_FOOD;
+
+string *food_name= ({"¬È¿±∂«Àø",
+                "À…» ”Ò√◊",
+		"√∑≤Àø€»‚",
+		"ŒÂœ„¿∞≥¶",
+		"”„œ„»‚Àø",
+		"∫Ï”Õº¶∆¨",
+		"«Â≥¥œ∫» ",
+		"ŒÂª®ÏÀ»‚",
+		"«‡Àø—¨”„",
+		"Ã«¥◊≈≈π«",
+		"æ©Ω¥»‚Àø",
+		"”ÕÏ¡¥Ûœ∫",
+		"¥‡∆§øæ—º",
+		"∫Ï…’Àÿ∂Ï",
+		"π¨±£º¶∂°",
+		"¬È¿±∂«Àø",
+		"∫Ï”Õ∑Œ∆¨",
+		"ƒ€Ÿ‡÷Ì∏Œ",
+		"◊ﬂ”Õ¥‡≥¶",
+		"±¨≥¥—¸ª®",
+		"˜Íœ„∂¨ÀÒ",
+		"Ù‰¥‰∂π∏Ø",
+		"¬È∆≈∂π∏Ø",
+		"»˝œ ∏Ø÷Ò",
+});
+
+string *eat_msg=({
+	  "$Nƒ√∆”ÒøÍº–¡À–©$name£¨∑≈µΩ◊Ï÷–≥‘¡À∆¿¥°£\n",
+	  "$N≥‘¡À“ª¥Ûø⁄$name°£\n",
+	  "$N≥¢¡À≥¢$name°£\n",
+	  "$Nº–¡À–©$name£¨∑≈µΩ◊Ï÷–°£\n",
+	  "$Nœ∏œ∏∆∑≥¢◊≈$name°£\n",
+	  });
+
+void create()
+{	string name = "ªÈ¿Ò¥Û≤À";
+  	set_name(name, ({"food"}));
+  	set_weight(1000);
+  	if (clonep())
+   		 set_default_object(__FILE__);
+  	else {
+    		set("long", "“ª≈Ã¡Ó»À¥πœ—µƒªÈ¿Ò¥Û≤À°£\n");
+    		set("unit", "≈Ã");
+//		set("eat_msg", "$Nƒ√∆”ÒøÍº–¡À–©" + name + "£¨∑≈µΩ◊Ï÷–≥‘¡À∆¿¥°£\n");
+    		set("value", 250);
+    		set("food_remaining", 5);
+    		set("food_supply", 20);
+  	}
+}
+
+void init ()
+{
+	if (query("name")=="ªÈ¿Ò¥Û≤À")
+	{
+		string name;
+		name=food_name[random(sizeof(food_name))];
+  		set_name(name, ({"food"}));
+		set("long", "“ª≈Ã¡Ó»À¥πœ—µƒ"+name+"°£\n");
+//		set("eat_msg", "$Nƒ√∆”ÒøÍº–¡À–©" + name + "£¨∑≈µΩ◊Ï÷–≥‘¡À∆¿¥°£\n");
+	}
+        if(!wizardp(this_player())) {
+        	set("no_get", "‘⁄ªÈ¿Ò…œ’‚√¥∏…À∆∫ı≤ª¥Û∫√∞…£°\n");
+        }
+        add_action("do_get", "get");
+        add_action("do_eat", "eat");
+	::init();
+}
+
+int do_eat (string arg)
+{
+  object me = this_object();
+  object who = this_player();
+  string name=query("name");
+  int i;
+
+  set("eat_msg", replace_string(eat_msg[random(sizeof(eat_msg))],
+	  "$name",name));
+  i=::do_eat(arg);
+  if(i && name=="À…» ”Ò√◊") {
+      if(!who->query_temp("xifuhui_eatcorn")) {
+       if(who->query("gender")=="≈Æ–‘" && who->query("married")) {
+	  string id;
+	  if(id=who->query("couple/id")) {
+	      object ob;
+	      if(ob=present(id, environment(me))) {
+		  message_vision("÷⁄»Àø¥◊≈$N∫Õ$n£¨∆Î…˘¥Û–¶µ¿£∫"+
+			  "π˛£°À…» ”Ò√◊£°πßœ≤£°πßœ≤£°\n",who,ob);
+		  who->add_temp("xifuhui_eatcorn",1);
+		  // this will be used in born child later.
+	      }
+	  }
+       }
+      }
+  }
+  return i;
+}
+
+int do_get (string arg)
+{
+  object me = this_object();
+  object who = this_player();
+
+  if (! arg)
+    return 0;
+
+  if (present(arg,environment(who))==me)
+  {
+    tell_object(who,"‘⁄ªÈ¿Ò…œ’‚√¥∏…À∆∫ı≤ª¥Û∫√∞…£°\n");
+    return 1;
+  }
+  return 0;
+}
+

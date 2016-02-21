@@ -1,0 +1,5 @@
+#/d/qujing/jisaiguo/npc/ayina.c
+dbase (["con":25,"can_speak":1,"spi":22,"attitude":"friendly","per":15,"atman":0,"actions":,"name":"阿依娜","gender":"女性","startroom":"/d/qujing/jisaiguo/silver","max_gin":276,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"unit":"位","shop_id":({"yina",}),"kee":300,"max_kee":300,"race":"人类","id":"a yina","mana":0,"age":22,"eff_sen":300,"sen":300,"force":0,"eff_gin":276,"combat_exp":1000,"default_actions":,"max_sen":300,"kar":24,"vendor_goods":(["necklace":"/d/qujing/jisaiguo/obj/silverneck","dagger":"/d/qujing/jisaiguo/obj/silverdagger","wrist":"/d/qujing/jisaiguo/obj/silverwrist","ring":"/d/qujing/jisaiguo/obj/silverring",]),"str":13,"eff_kee":300,"cps":19,"int":10,"gin":276,"long":"一位大眼睛，长辫子的姑娘。","cor":13,])
+SAVE_NAME "jisaoguo_a_yina"
+price_ratio 10
+close_time 1155985156

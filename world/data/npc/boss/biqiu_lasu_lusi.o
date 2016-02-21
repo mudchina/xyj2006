@@ -1,0 +1,7 @@
+#/d/qujing/biqiu/npc/lasulusi.c
+dbase (["gin":356,"kee":1222,"max_kee":1222,"kar":28,"combat_exp":5000,"eff_kee":1222,"name":"拉苏律司","str":30,"gender":"男性","cps":12,"int":18,"mana":0,"cor":19,"max_sen":884,"con":17,"atman":0,"eff_sen":884,"spi":16,"per":44,"eff_gin":356,"shop_id":({"lusi",}),"actions":,"id":"lasu lusi","startroom":"/d/qujing/biqiu/jinqi","unit":"位","max_gin":356,"force":0,"vendor_goods":(["xiangquan":"/d/qujing/biqiu/obj/neck","jiezhi":"/d/qujing/biqiu/obj/ring","wanlian":"/d/qujing/biqiu/obj/wrists",]),"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"default_actions":,"race":"人类","can_speak":1,"attitude":"friendly","shen_type":1,"sen":884,"age":40,])
+skills (["unarmed":60,])
+learned (["unarmed":0,])
+SAVE_NAME "biqiu_lasu_lusi"
+price_ratio 10
+close_time 1155894222

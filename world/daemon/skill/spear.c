@@ -1,0 +1,3 @@
+// spear.c
+
+inherit SKILL;

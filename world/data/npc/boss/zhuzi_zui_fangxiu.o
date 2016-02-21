@@ -1,0 +1,7 @@
+#/d/qujing/zhuzi/npc/zui.c
+dbase (["attitude":"friendly","atman":0,"shen_type":1,"startroom":"/d/qujing/zhuzi/jiudian","actions":,"name":"醉方休","max_gin":548,"gender":"男性","unit":"位","limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"can_speak":1,"kee":1482,"max_kee":1482,"race":"人类","id":"zui fangxiu","channel":(["last_tell":1154955190,"tell_count":3,]),"vendor_goods":(["jiunang":"/d/obj/food/jiunang","jiudai":"/d/obj/food/niupi-jiudai",]),"mana":0,"age":40,"shop_id":({"zuifangxiu","fangxiu","zui",}),"eff_sen":1404,"sen":1404,"force":0,"eff_gin":548,"combat_exp":5000,"kar":18,"str":28,"default_actions":,"max_sen":1404,"cps":12,"int":26,"cor":25,"eff_kee":1482,"con":29,"spi":28,"gin":548,"per":34,])
+skills (["unarmed":50,])
+learned (["unarmed":0,])
+SAVE_NAME "zhuzi_zui_fangxiu"
+price_ratio 10
+close_time 1155982212

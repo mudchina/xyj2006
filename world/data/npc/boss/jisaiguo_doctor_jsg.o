@@ -1,0 +1,5 @@
+#/d/qujing/jisaiguo/npc/doctor.c
+dbase (["con":10,"can_speak":1,"spi":19,"attitude":"friendly","per":18,"atman":0,"actions":,"name":"柳妙手","gender":"男性","startroom":"/d/qujing/jisaiguo/yaopu","max_gin":404,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"unit":"位","shop_id":({"doctor",}),"kee":300,"max_kee":300,"race":"人类","id":"liu miaoshou","shop_title":"妙手回春","mana":0,"age":62,"eff_sen":300,"sen":300,"force":0,"eff_gin":404,"combat_exp":1000,"default_actions":,"max_sen":300,"kar":14,"vendor_goods":(["dan":"/d/obj/drug/hunyuandan","wan":"/d/obj/drug/dieda",]),"str":13,"eff_kee":300,"cps":24,"int":29,"gin":404,"long":"一位老大夫，好象很有学问的样子。","cor":24,])
+SAVE_NAME "jisaiguo_doctor_jsg"
+price_ratio 10
+close_time 1155985077

@@ -1,0 +1,547 @@
+d/city/kezhan.c line 16: Newline in string
+d/city/kezhan.c line 16: Undefined variable 'TMI'
+d/city/kezhan.c line 16: parse error
+d/city/kezhan.c line 16: Newline in string
+d/city/kezhan.c line 16: Undefined variable 'TMI'
+d/city/kezhan.c line 16: parse error
+d/city/kezhan.c line 44: parse error
+d/city/kezhan.c line 44: parse error
+d/city/kezhan.c line 50: Missing '(' in macro call
+d/city/kezhan.c line 50: Undefined function TMI
+d/city/kezhan.c line 50: Missing '(' in macro call
+d/city/kezhan.c line 50: Undefined function TMI
+adm/daemons/logind.c line 240: parse error
+adm/daemons/logind.c line 249: Illegal LHS
+adm/daemons/logind.c line 249: parse error
+adm/daemons/logind.c line 285: Illegal LHS
+adm/daemons/logind.c line 285: parse error
+adm/daemons/logind.c line 295: Illegal LHS
+adm/daemons/logind.c line 240: parse error
+adm/daemons/logind.c line 249: Illegal LHS
+adm/daemons/logind.c line 249: parse error
+adm/daemons/logind.c line 285: Illegal LHS
+adm/daemons/logind.c line 285: parse error
+adm/daemons/logind.c line 295: Illegal LHS
+adm/daemons/logind.c line 240: parse error
+adm/daemons/logind.c line 249: Illegal LHS
+adm/daemons/logind.c line 249: parse error
+adm/daemons/logind.c line 285: Illegal LHS
+adm/daemons/logind.c line 285: parse error
+adm/daemons/logind.c line 295: Illegal LHS
+adm/daemons/logind.c line 240: parse error
+adm/daemons/logind.c line 249: Illegal LHS
+adm/daemons/logind.c line 249: parse error
+adm/daemons/logind.c line 285: Illegal LHS
+adm/daemons/logind.c line 285: parse error
+adm/daemons/logind.c line 295: Illegal LHS
+adm/daemons/logind.c line 240: parse error
+adm/daemons/logind.c line 249: Illegal LHS
+adm/daemons/logind.c line 249: parse error
+adm/daemons/logind.c line 285: Illegal LHS
+adm/daemons/logind.c line 285: parse error
+adm/daemons/logind.c line 295: Illegal LHS
+adm/daemons/logind.c line 240: parse error
+adm/daemons/logind.c line 249: Illegal LHS
+adm/daemons/logind.c line 249: parse error
+adm/daemons/logind.c line 285: Illegal LHS
+adm/daemons/logind.c line 285: parse error
+adm/daemons/logind.c line 295: Illegal LHS
+adm/daemons/logind.c line 240: parse error
+adm/daemons/logind.c line 249: Illegal LHS
+adm/daemons/logind.c line 249: parse error
+adm/daemons/logind.c line 285: Illegal LHS
+adm/daemons/logind.c line 285: parse error
+adm/daemons/logind.c line 295: Illegal LHS
+adm/daemons/logind.c line 240: parse error
+adm/daemons/logind.c line 249: Illegal LHS
+adm/daemons/logind.c line 249: parse error
+adm/daemons/logind.c line 285: Illegal LHS
+adm/daemons/logind.c line 285: parse error
+adm/daemons/logind.c line 295: Illegal LHS
+adm/daemons/logind.c line 240: parse error
+adm/daemons/logind.c line 249: Illegal LHS
+adm/daemons/logind.c line 249: parse error
+adm/daemons/logind.c line 285: Illegal LHS
+adm/daemons/logind.c line 285: parse error
+adm/daemons/logind.c line 295: Illegal LHS
+adm/daemons/logind.c line 240: parse error
+adm/daemons/logind.c line 249: Illegal LHS
+adm/daemons/logind.c line 249: parse error
+adm/daemons/logind.c line 285: Illegal LHS
+adm/daemons/logind.c line 285: parse error
+adm/daemons/logind.c line 295: Illegal LHS
+adm/daemons/logind.c line 240: parse error
+adm/daemons/logind.c line 249: Illegal LHS
+adm/daemons/logind.c line 249: parse error
+adm/daemons/logind.c line 285: Illegal LHS
+adm/daemons/logind.c line 285: parse error
+adm/daemons/logind.c line 295: Illegal LHS
+adm/daemons/logind.c line 240: parse error
+adm/daemons/logind.c line 249: Illegal LHS
+adm/daemons/logind.c line 249: parse error
+adm/daemons/logind.c line 285: Illegal LHS
+adm/daemons/logind.c line 285: parse error
+adm/daemons/logind.c line 295: Illegal LHS
+adm/daemons/logind.c line 240: parse error
+adm/daemons/logind.c line 249: Illegal LHS
+adm/daemons/logind.c line 249: parse error
+adm/daemons/logind.c line 285: Illegal LHS
+adm/daemons/logind.c line 285: parse error
+adm/daemons/logind.c line 295: Illegal LHS
+adm/daemons/logind.c line 240: parse error
+adm/daemons/logind.c line 249: Illegal LHS
+adm/daemons/logind.c line 249: parse error
+adm/daemons/logind.c line 285: Illegal LHS
+adm/daemons/logind.c line 285: parse error
+adm/daemons/logind.c line 295: Illegal LHS
+adm/daemons/logind.c line 240: parse error
+adm/daemons/logind.c line 249: Illegal LHS
+adm/daemons/logind.c line 249: parse error
+adm/daemons/logind.c line 285: Illegal LHS
+adm/daemons/logind.c line 285: parse error
+adm/daemons/logind.c line 295: Illegal LHS
+adm/daemons/logind.c line 240: parse error
+adm/daemons/logind.c line 249: Illegal LHS
+adm/daemons/logind.c line 249: parse error
+adm/daemons/logind.c line 285: Illegal LHS
+adm/daemons/logind.c line 285: parse error
+adm/daemons/logind.c line 295: Illegal LHS
+adm/daemons/logind.c line 240: parse error
+adm/daemons/logind.c line 249: Illegal LHS
+adm/daemons/logind.c line 249: parse error
+adm/daemons/logind.c line 285: Illegal LHS
+adm/daemons/logind.c line 285: parse error
+adm/daemons/logind.c line 295: Illegal LHS
+feature/move.c line 91: Undefined variable 'env'
+feature/move.c line 98: Undefined variable 'ob'
+feature/move.c line 286: Undefined variable 'ob'
+feature/move.c line 287: Undefined variable 'me'
+feature/move.c line 91: Undefined variable 'env'
+feature/move.c line 98: Undefined variable 'ob'
+feature/move.c line 286: Undefined variable 'ob'
+feature/move.c line 287: Undefined variable 'me'
+feature/move.c line 91: Undefined variable 'env'
+feature/move.c line 98: Undefined variable 'ob'
+feature/move.c line 286: Undefined variable 'ob'
+feature/move.c line 287: Undefined variable 'me'
+feature/move.c line 91: Undefined variable 'env'
+feature/move.c line 98: Undefined variable 'ob'
+feature/move.c line 286: Undefined variable 'ob'
+feature/move.c line 287: Undefined variable 'me'
+std/char.c line 55: Undefined function set_max_items
+std/char.c line 55: Undefined function set_max_items
+std/char.c line 55: Undefined function set_max_items
+feature/move.c line 17: Undefined variable 'max_items'
+feature/move.c line 17: Undefined variable 'max_items'
+feature/move.c line 17: Undefined variable 'max_items'
+feature/move.c line 130: Undefined variable 'raw'
+feature/move.c line 154: Undefined variable 'magic_move'
+feature/move.c line 211: Undefined variable 'LOOK_CMD'
+feature/move.c line 452: Undefined variable 'ob'
+feature/move.c line 453: Undefined variable 'me'
+feature/move.c line 130: Undefined variable 'raw'
+feature/move.c line 154: Undefined variable 'magic_move'
+feature/move.c line 211: Undefined variable 'LOOK_CMD'
+feature/move.c line 452: Undefined variable 'ob'
+feature/move.c line 453: Undefined variable 'me'
+feature/move.c line 130: Undefined variable 'raw'
+feature/move.c line 154: Undefined variable 'magic_move'
+feature/move.c line 211: Undefined variable 'LOOK_CMD'
+feature/move.c line 452: Undefined variable 'ob'
+feature/move.c line 453: Undefined variable 'me'
+feature/move.c line 130: Undefined variable 'raw'
+feature/move.c line 154: Undefined variable 'magic_move'
+feature/move.c line 211: Undefined variable 'LOOK_CMD'
+feature/move.c line 452: Undefined variable 'ob'
+feature/move.c line 453: Undefined variable 'me'
+feature/move.c line 213: Undefined variable 'LOOK_CMD'
+feature/move.c line 454: Undefined variable 'ob'
+feature/move.c line 455: Undefined variable 'me'
+feature/move.c line 213: Undefined variable 'LOOK_CMD'
+feature/move.c line 454: Undefined variable 'ob'
+feature/move.c line 455: Undefined variable 'me'
+feature/move.c line 213: Undefined variable 'LOOK_CMD'
+feature/move.c line 454: Undefined variable 'ob'
+feature/move.c line 455: Undefined variable 'me'
+feature/move.c line 213: Undefined variable 'LOOK_CMD'
+feature/move.c line 213: Undefined variable 'LOOK_CMD'
+feature/move.c line 213: Undefined variable 'LOOK_CMD'
+feature/move.c line 213: Undefined variable 'LOOK_CMD'
+feature/move.c line 213: Undefined variable 'LOOK_CMD'
+feature/move.c line 213: Undefined variable 'LOOK_CMD'
+feature/move.c line 92: Undefined variable 'user'
+feature/move.c line 92: Undefined variable 'user'
+feature/move.c line 92: Undefined variable 'user'
+cmds/std/look.c line 235: Undefined variable 'RETURN_RESULT'
+cmds/std/look.c line 235: Undefined function look_all_inventory_of_room
+cmds/std/look.c line 235: Bad assignment ( string vs unknown ).
+cmds/std/look.c line 238: Undefined function info
+cmds/std/look.c line 239: Invalid argument types to '+' ( string vs unknown )
+cmds/std/look.c line 256: Undefined function FRELINE
+cmds/std/look.c line 235: Undefined variable 'RETURN_RESULT'
+cmds/std/look.c line 235: Undefined function look_all_inventory_of_room
+cmds/std/look.c line 235: Bad assignment ( string vs unknown ).
+cmds/std/look.c line 238: Undefined function info
+cmds/std/look.c line 239: Invalid argument types to '+' ( string vs unknown )
+cmds/std/look.c line 256: Undefined function FRELINE
+cmds/std/look.c line 235: Undefined variable 'RETURN_RESULT'
+cmds/std/look.c line 235: Undefined function look_all_inventory_of_room
+cmds/std/look.c line 235: Bad assignment ( string vs unknown ).
+cmds/std/look.c line 238: Undefined function info
+cmds/std/look.c line 239: Invalid argument types to '+' ( string vs unknown )
+cmds/std/look.c line 256: Undefined function FRELINE
+cmds/std/look.c line 235: Undefined variable 'RETURN_RESULT'
+cmds/std/look.c line 235: Undefined function look_all_inventory_of_room
+cmds/std/look.c line 235: Bad assignment ( string vs unknown ).
+cmds/std/look.c line 238: Undefined function info
+cmds/std/look.c line 239: Invalid argument types to '+' ( string vs unknown )
+cmds/std/look.c line 256: Undefined function FRELINE
+cmds/std/look.c line 235: Undefined variable 'RETURN_RESULT'
+cmds/std/look.c line 235: Undefined function look_all_inventory_of_room
+cmds/std/look.c line 235: Bad assignment ( string vs unknown ).
+cmds/std/look.c line 238: Undefined function info
+cmds/std/look.c line 239: Invalid argument types to '+' ( string vs unknown )
+cmds/std/look.c line 256: Undefined function FRELINE
+cmds/std/look.c line 253: Undefined function FRELINE
+cmds/std/look.c line 254: Undefined function TOBOT
+cmds/std/look.c line 254: Invalid argument types to '+' ( string vs unknown )
+cmds/std/look.c line 257: Undefined function SETDISPLAY
+cmds/std/look.c line 257: Undefined variable 'DELLINE'
+cmds/std/look.c line 265: Invalid argument types to '+' ( unknown vs string )
+cmds/std/look.c line 235: Undefined variable 'RETURN_RESULT'
+cmds/std/look.c line 235: Undefined function look_all_inventory_of_room
+cmds/std/look.c line 235: Bad assignment ( string vs unknown ).
+cmds/std/look.c line 238: Undefined function info
+cmds/std/look.c line 239: Invalid argument types to '+' ( string vs unknown )
+cmds/std/look.c line 256: Undefined function FRELINE
+cmds/std/look1.c line 206: Undefined function SETDISPLAY
+cmds/std/look1.c line 206: Undefined variable 'DELLINE'
+cmds/std/look1.c line 214: Invalid argument types to '+' ( unknown vs string )
+cmds/std/look1.c line 218: Invalid argument types to '+' ( unknown vs string )
+cmds/std/look1.c line 220: Invalid argument types to '+' ( unknown vs string )
+cmds/std/look1.c line 223: Invalid argument types to '+' ( unknown vs string )
+cmds/std/look.c line 220: parse error
+cmds/std/look.c line 225: Illegal LHS
+cmds/std/look.c line 241: Reserved type name unexpected.
+cmds/std/look.c line 241: parse error
+cmds/std/look.c line 247: Undefined variable 'obj'
+cmds/std/look.c line 247: Illegal LHS
+cmds/std/look.c line 225: Undefined variable 'RETURN_RESULT'
+cmds/std/look.c line 225: Undefined function look_all_inventory_of_room
+cmds/std/look.c line 225: Bad assignment ( string vs unknown ).
+cmds/std/look.c line 228: Undefined function info
+cmds/std/look.c line 229: Invalid argument types to '+' ( string vs unknown )
+cmds/std/look.c line 179: Undefined variable 'rf_bkpic'
+cmds/std/look.c line 181: Undefined variable 'df_bkpic'
+cmds/std/look.c line 225: Undefined function SETDISPLAY
+cmds/std/look.c line 225: Undefined variable 'DELLINE'
+cmds/std/look.c line 233: Invalid argument types to '+' ( unknown vs string )
+cmds/std/look.c line 237: Invalid argument types to '+' ( unknown vs string )
+cmds/std/look.c line 239: Invalid argument types to '+' ( unknown vs string )
+cmds/std/look.c line 242: Invalid argument types to '+' ( unknown vs string )
+cmds/std/look.c line 225: Undefined function SETDISPLAY
+cmds/std/look.c line 225: Undefined variable 'DELLINE'
+cmds/std/look.c line 233: Invalid argument types to '+' ( unknown vs string )
+cmds/std/look.c line 237: Invalid argument types to '+' ( unknown vs string )
+cmds/std/look.c line 239: Invalid argument types to '+' ( unknown vs string )
+cmds/std/look.c line 242: Invalid argument types to '+' ( unknown vs string )
+cmds/std/look.c line 239: Undefined function filter_color
+cmds/std/look.c line 239: Invalid argument types to '+' ( string vs unknown )
+cmds/std/look.c line 246: Invalid argument types to '+' ( string vs unknown )
+cmds/std/look.c line 251: Invalid argument types to '+' ( string vs unknown )
+cmds/std/look.c line 256: Invalid argument types to '+' ( string vs unknown )
+cmds/std/look.c line 261: Invalid argument types to '+' ( string vs unknown )
+cmds/std/look.c line 240: Undefined function filter_color
+cmds/std/look.c line 240: Invalid argument types to '+' ( string vs unknown )
+cmds/std/look.c line 247: Invalid argument types to '+' ( string vs unknown )
+cmds/std/look.c line 252: Invalid argument types to '+' ( string vs unknown )
+cmds/std/look.c line 257: Invalid argument types to '+' ( string vs unknown )
+cmds/std/look.c line 262: Invalid argument types to '+' ( string vs unknown )
+cmds/std/look.c line 350: Reserved type name unexpected.
+cmds/std/look.c line 350: parse error
+cmds/std/look.c line 354: Undefined variable 'arg'
+cmds/std/look.c line 354: Illegal LHS
+cmds/std/look.c line 644: Bad type for argument 2 of look_room ( object * vs object )
+cmds/std/look.c line 340: parse error
+cmds/std/look.c line 218: parse error
+cmds/std/look.c line 216: parse error
+feature/move.c line 303: Undefined variable 'ob'
+feature/move.c line 304: Undefined variable 'me'
+feature/move.c line 303: Undefined variable 'ob'
+feature/move.c line 304: Undefined variable 'me'
+feature/move.c line 303: Undefined variable 'ob'
+feature/move.c line 304: Undefined variable 'me'
+feature/move.c line 121: Reserved type name unexpected.
+feature/move.c line 121: parse error
+feature/move.c line 124: Illegal LHS
+feature/move.c line 124: Undefined variable 'str1'
+feature/move.c line 124: parse error
+feature/move.c line 125: Illegal LHS
+feature/move.c line 121: Reserved type name unexpected.
+feature/move.c line 121: parse error
+feature/move.c line 124: Illegal LHS
+feature/move.c line 124: Undefined variable 'str1'
+feature/move.c line 124: parse error
+feature/move.c line 125: Illegal LHS
+feature/move.c line 121: Reserved type name unexpected.
+feature/move.c line 121: parse error
+feature/move.c line 124: Illegal LHS
+feature/move.c line 124: Undefined variable 'str1'
+feature/move.c line 124: parse error
+feature/move.c line 125: Illegal LHS
+feature/move.c line 121: Reserved type name unexpected.
+feature/move.c line 121: parse error
+feature/move.c line 124: Illegal LHS
+feature/move.c line 124: Undefined variable 'str1'
+feature/move.c line 124: parse error
+feature/move.c line 125: Illegal LHS
+feature/move.c line 137: Reserved type name unexpected.
+feature/move.c line 137: parse error
+feature/move.c line 311: Undefined variable 'ob'
+feature/move.c line 330: Bad type for argument 1 of move ( int vs string )
+feature/move.c line 137: Reserved type name unexpected.
+feature/move.c line 137: parse error
+feature/move.c line 311: Undefined variable 'ob'
+feature/move.c line 330: Bad type for argument 1 of move ( object vs string )
+feature/move.c line 137: Reserved type name unexpected.
+feature/move.c line 137: parse error
+feature/move.c line 311: Undefined variable 'ob'
+feature/move.c line 330: Bad type for argument 1 of move ( object vs string )
+feature/move.c line 312: Reserved type name unexpected.
+feature/move.c line 312: parse error
+feature/move.c line 312: Illegal LHS
+feature/move.c line 315: Undefined variable 'ob'
+feature/move.c line 323: Undefined variable 'default_ob'
+feature/move.c line 312: Reserved type name unexpected.
+feature/move.c line 312: parse error
+feature/move.c line 312: Illegal LHS
+feature/move.c line 315: Undefined variable 'ob'
+feature/move.c line 323: Undefined variable 'default_ob'
+feature/move.c line 312: Reserved type name unexpected.
+feature/move.c line 312: parse error
+feature/move.c line 312: Illegal LHS
+feature/move.c line 315: Undefined variable 'ob'
+feature/move.c line 323: Undefined variable 'default_ob'
+std/char.c line 55: Undefined function set_max_items
+std/char.c line 55: Undefined function set_max_items
+std/char.c line 55: Undefined function set_max_items
+std/char.c line 55: Undefined function set_max_items
+feature/move.c line 17: Undefined variable 'max_items'
+feature/move.c line 17: Undefined variable 'max_items'
+feature/move.c line 17: Undefined variable 'max_items'
+feature/move.c line 275: Undefined variable 'users'
+feature/move.c line 279: 'user' is not a local or a global variable.
+feature/move.c line 280: Undefined variable 'user'
+feature/move.c line 275: Undefined variable 'users'
+feature/move.c line 279: 'user' is not a local or a global variable.
+feature/move.c line 280: Undefined variable 'user'
+feature/move.c line 275: Undefined variable 'users'
+feature/move.c line 279: 'user' is not a local or a global variable.
+feature/move.c line 280: Undefined variable 'user'
+feature/move.c line 126: Reserved type name unexpected.
+feature/move.c line 126: parse error
+feature/move.c line 135: Undefined variable 'dest'
+feature/move.c line 135: Illegal LHS
+feature/move.c line 136: parse error
+feature/move.c line 139: Illegal LHS
+feature/move.c line 126: Reserved type name unexpected.
+feature/move.c line 126: parse error
+feature/move.c line 135: Undefined variable 'dest'
+feature/move.c line 135: Illegal LHS
+feature/move.c line 136: parse error
+feature/move.c line 139: Illegal LHS
+feature/move.c line 126: Reserved type name unexpected.
+feature/move.c line 126: parse error
+feature/move.c line 135: Undefined variable 'dest'
+feature/move.c line 135: Illegal LHS
+feature/move.c line 136: parse error
+feature/move.c line 139: Illegal LHS
+feature/move.c line 126: Reserved type name unexpected.
+feature/move.c line 126: parse error
+feature/move.c line 135: Undefined variable 'dest'
+feature/move.c line 135: Illegal LHS
+feature/move.c line 136: parse error
+feature/move.c line 139: Illegal LHS
+feature/move.c line 126: Reserved type name unexpected.
+feature/move.c line 126: parse error
+feature/move.c line 135: Undefined variable 'dest'
+feature/move.c line 135: Illegal LHS
+feature/move.c line 136: parse error
+feature/move.c line 139: Illegal LHS
+feature/move.c line 126: Reserved type name unexpected.
+feature/move.c line 126: parse error
+feature/move.c line 135: Undefined variable 'dest'
+feature/move.c line 135: Illegal LHS
+feature/move.c line 136: parse error
+feature/move.c line 139: Illegal LHS
+feature/move.c line 126: Reserved type name unexpected.
+feature/move.c line 126: parse error
+feature/move.c line 135: Undefined variable 'dest'
+feature/move.c line 135: Illegal LHS
+feature/move.c line 136: parse error
+feature/move.c line 139: Illegal LHS
+feature/move.c line 126: Reserved type name unexpected.
+feature/move.c line 126: parse error
+feature/move.c line 135: Undefined variable 'dest'
+feature/move.c line 135: Illegal LHS
+feature/move.c line 136: parse error
+feature/move.c line 139: Illegal LHS
+feature/move.c line 126: Reserved type name unexpected.
+feature/move.c line 126: parse error
+feature/move.c line 135: Undefined variable 'dest'
+feature/move.c line 135: Illegal LHS
+feature/move.c line 136: parse error
+feature/move.c line 139: Illegal LHS
+feature/move.c line 140: parse error
+feature/move.c line 140: parse error
+feature/move.c line 140: parse error
+feature/move.c line 140: parse error
+feature/move.c line 352: Undefined function is_magic_move
+feature/move.c line 352: Undefined function is_magic_move
+feature/move.c line 352: Undefined function is_magic_move
+feature/move.c line 362: parse error
+feature/move.c line 362: parse error
+feature/move.c line 362: parse error
+feature/move.c line 362: parse error
+feature/move.c line 357: parse error
+feature/move.c line 357: parse error
+feature/move.c line 357: parse error
+feature/move.c line 357: parse error
+feature/move.c line 357: parse error
+feature/move.c line 357: parse error
+cmds/usr/inventory.c line 36: parse error
+cmds/usr/inventory.c line 42: Illegal LHS
+cmds/usr/inventory.c line 42: parse error
+cmds/usr/inventory.c line 46: Illegal LHS
+cmds/usr/inventory.c line 46: parse error
+cmds/usr/inventory.c line 48: Illegal LHS
+feature/move.c line 243: Undefined function inventory
+feature/move.c line 243: Undefined function inventory
+feature/move.c line 243: Undefined function inventory
+feature/move.c line 243: Undefined variable 'LOOK_CMD'
+feature/move.c line 243: Undefined variable 'LOOK_CMD'
+feature/move.c line 243: Undefined variable 'LOOK_CMD'
+feature/move.c line 260: parse error
+feature/move.c line 260: parse error
+feature/move.c line 260: parse error
+cmds/std/drop.c line 14: Undefined variable 'this_object'
+cmds/std/drop.c line 113: Undefined variable 'me1'
+cmds/std/drop.c line 107: Undefined variable 'me1'
+cmds/std/drop.c line 109: Undefined variable 'me1'
+cmds/std/drop.c line 70: Undefined variable 'me1'
+cmds/std/drop.c line 70: Undefined variable 'me1'
+feature/move.c line 127: Reserved type name unexpected.
+feature/move.c line 127: parse error
+feature/move.c line 127: Illegal LHS
+feature/move.c line 128: Undefined variable 'si'
+feature/move.c line 130: Undefined variable 'me'
+feature/move.c line 140: Undefined variable 'dest'
+feature/move.c line 127: Reserved type name unexpected.
+feature/move.c line 127: parse error
+feature/move.c line 127: Illegal LHS
+feature/move.c line 128: Undefined variable 'si'
+feature/move.c line 130: Undefined variable 'me'
+feature/move.c line 140: Undefined variable 'dest'
+feature/move.c line 127: Reserved type name unexpected.
+feature/move.c line 127: parse error
+feature/move.c line 127: Illegal LHS
+feature/move.c line 128: Undefined variable 'si'
+feature/move.c line 130: Undefined variable 'me'
+feature/move.c line 140: Undefined variable 'dest'
+feature/move.c line 127: Reserved type name unexpected.
+feature/move.c line 127: parse error
+feature/move.c line 127: Illegal LHS
+feature/move.c line 136: Undefined variable 'dest'
+feature/move.c line 137: Undefined variable 'ob'
+feature/move.c line 148: Undefined variable 'me'
+feature/move.c line 127: Reserved type name unexpected.
+feature/move.c line 127: parse error
+feature/move.c line 127: Illegal LHS
+feature/move.c line 136: Undefined variable 'dest'
+feature/move.c line 137: Undefined variable 'ob'
+feature/move.c line 148: Undefined variable 'me'
+feature/move.c line 127: Reserved type name unexpected.
+feature/move.c line 127: parse error
+feature/move.c line 127: Illegal LHS
+feature/move.c line 136: Undefined variable 'dest'
+feature/move.c line 137: Undefined variable 'ob'
+feature/move.c line 148: Undefined variable 'me'
+d/city/npc/xiaoer.c line 4: Cannot #include tomud.com
+d/city/npc/xiaoer.c line 54: Undefined variable 'lbadd0'
+d/city/npc/xiaoer.c line 54: parse error
+d/city/npc/xiaoer.c line 73: Illegal LHS
+d/city/npc/xiaoer.c line 73: parse error
+d/city/npc/xiaoer.c line 78: Illegal LHS
+d/city/npc/xiaoer.c line 4: Cannot #include tomud.com
+d/city/npc/xiaoer.c line 4: Cannot #include tomud.com
+d/city/npc/xiaoer.c line 4: Cannot #include tomud.com
+feature/move.c line 10: parse error
+feature/move.c line 10: parse error
+feature/move.c line 10: parse error
+std/char.c line 55: Undefined function set_max_items
+std/char.c line 55: Undefined function set_max_items
+std/char.c line 55: Undefined function set_max_items
+feature/move.c line 56: Undefined variable 'max_items'
+feature/move.c line 56: Undefined variable 'max_items'
+feature/move.c line 246: parse error
+feature/move.c line 246: parse error
+feature/move.c line 246: parse error
+cmds/std/look.c line 265: parse error
+cmds/std/look.c line 280: Undefined variable 'obj'
+cmds/std/look.c line 280: Illegal LHS
+cmds/std/look.c line 288: Reserved type name unexpected.
+cmds/std/look.c line 288: parse error
+feature/move.c line 265: Undefined variable 'RETURN_RESULT'
+feature/move.c line 265: Undefined function look_all_inventory_of_room
+feature/move.c line 265: Invalid argument types to '+' ( string vs unknown )
+feature/move.c line 265: Undefined variable 'RETURN_RESULT'
+feature/move.c line 265: Undefined function look_all_inventory_of_room
+feature/move.c line 265: Invalid argument types to '+' ( string vs unknown )
+feature/move.c line 265: Undefined variable 'RETURN_RESULT'
+feature/move.c line 265: Undefined function look_all_inventory_of_room
+feature/move.c line 265: Invalid argument types to '+' ( string vs unknown )
+feature/move.c line 66: Undefined function desc_of_objects
+feature/move.c line 66: Bad assignment ( string vs unknown ).
+feature/move.c line 70: Bad assignment ( string vs unknown ).
+feature/move.c line 73: Bad assignment ( string vs unknown ).
+feature/move.c line 66: Undefined function desc_of_objects
+feature/move.c line 66: Bad assignment ( string vs unknown ).
+feature/move.c line 70: Bad assignment ( string vs unknown ).
+feature/move.c line 73: Bad assignment ( string vs unknown ).
+feature/move.c line 66: Undefined function desc_of_objects
+feature/move.c line 66: Bad assignment ( string vs unknown ).
+feature/move.c line 70: Bad assignment ( string vs unknown ).
+feature/move.c line 73: Bad assignment ( string vs unknown ).
+cmds/usr/who.c line 7: Cannot #include getconfig.h
+cmds/usr/who.c line 146: Undefined variable 'MESSAGE_D'
+cmds/usr/who.c line 188: Undefined variable 'ultrap'
+cmds/usr/who.c line 188: parse error
+cmds/usr/who.c line 191: Illegal LHS
+cmds/usr/who.c line 191: parse error
+cmds/usr/who.c line 146: Undefined variable 'MESSAGE_D'
+cmds/usr/who.c line 188: Undefined variable 'ultrap'
+cmds/usr/who.c line 188: parse error
+cmds/usr/who.c line 191: Illegal LHS
+cmds/usr/who.c line 191: parse error
+cmds/usr/who.c line 194: Illegal LHS
+feature/move.c line 263: Undefined variable 'icon'
+feature/move.c line 263: Undefined variable 'icon'
+feature/move.c line 263: Undefined variable 'icon'
+std/char.c line 55: Undefined function set_max_items
+std/char.c line 55: Undefined function set_max_items
+std/char.c line 55: Undefined function set_max_items
+feature/message.c line 6: parse error
+feature/message.c line 6: parse error
+feature/message.c line 6: parse error
+feature/message.c line 87: Undefined variable 'LANGUAGE_D'
+feature/message.c line 149: Undefined variable 'LANGUAGE_D'
+feature/message.c line 87: Undefined variable 'LANGUAGE_D'
+feature/message.c line 149: Undefined variable 'LANGUAGE_D'
+feature/message.c line 87: Undefined variable 'LANGUAGE_D'
+feature/message.c line 149: Undefined variable 'LANGUAGE_D'
+cmds/std/tell.c line 81: Wrong number of macro arguments
+cmds/std/tell.c line 81: Undefined variable 'PTEXT'
+cmds/std/tell.c line 82: Wrong number of macro arguments
+cmds/std/tell.c line 113: Wrong number of macro arguments
+cmds/std/tell.c line 113: Undefined variable 'PTEXT'
+cmds/std/tell.c line 116: Wrong number of macro arguments

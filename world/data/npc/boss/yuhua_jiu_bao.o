@@ -1,0 +1,7 @@
+#/d/qujing/yuhua/npc/jiubao.c
+dbase (["unit":"位","con":12,"gin":500,"spi":25,"shop_id":({"jiubao","bao",}),"per":21,"eff_gin":500,"actions":,"name":"酒保","attitude":"friendly","vendor_goods":(["jitui":"/d/ourhome/obj/jitui","qianyang":"/d/qujing/yuhua/obj/lamb","jiunang":"/d/obj/food/jiunang","ruzhu":"/d/qujing/yuhua/obj/pig","baijiu":"/d/obj/food/baijiu",]),"shen_type":1,"gender":"男性","startroom":"/d/qujing/yuhua/jiulou","max_gin":500,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"atman":0,"kee":650,"max_kee":650,"race":"人类","id":"jiu bao","mana":0,"age":30,"can_speak":1,"eff_sen":1404,"sen":1404,"force":0,"combat_exp":5000,"max_sen":1404,"kar":27,"eff_kee":650,"default_actions":,"str":13,"cps":15,"int":29,"cor":25,])
+skills (["unarmed":30,])
+learned (["unarmed":0,])
+SAVE_NAME "yuhua_jiu_bao"
+price_ratio 10
+close_time 1156222715

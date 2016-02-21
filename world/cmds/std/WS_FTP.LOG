@@ -1,0 +1,262 @@
+100.04.10 19:45 B C:\TEMP\board\cmds\std\abandon.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std abandon.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\accept.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std accept.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\apprentice.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std apprentice.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\ask.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std ask.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\bian.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std bian.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\block_tell.h <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std block_tell.h
+100.04.10 19:45 B C:\TEMP\board\cmds\std\buy.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std buy.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\buyy <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std buyy
+100.04.10 19:45 B C:\TEMP\board\cmds\std\cast.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std cast.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\chanting.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std chanting.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\check.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std check.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\close.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std close.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\dismount.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std dismount.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\drop.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std drop.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\emote.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std emote.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\enable.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std enable.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\enchant.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std enchant.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\enforce.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std enforce.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\exercise.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std exercise.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\exert.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std exert.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\expell.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std expell.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\fight.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std fight.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\find.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std find.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\fly.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std fly.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\follow.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std follow.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\get.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std get.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\give.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std give.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\go.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std go.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\hell_bing.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std hell_bing.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\invite.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std invite.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\ji.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std ji.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\kill.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std kill.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\kl.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std kl.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\learn.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std learn.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\localtime.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std localtime.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\look.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std look.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\marry.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std marry.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\meditate.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std meditate.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\mount.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std mount.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\observe.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std observe.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\open.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std open.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\perform.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std perform.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\practice.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std practice.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\propose.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std propose.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\protect.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std protect.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\put.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std put.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\quitroom.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std quitroom.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\recruit.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std recruit.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\remove.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std remove.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\reply.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std reply.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\say.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std say.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\score.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std score.c
+100.04.10 19:45 B C:\TEMP\board\cmds\std\scribe.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std scribe.c
+100.04.10 19:46 B C:\TEMP\board\cmds\std\shoot.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std shoot.c
+100.04.10 19:46 B C:\TEMP\board\cmds\std\shout.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std shout.c
+100.04.10 19:46 B C:\TEMP\board\cmds\std\sleep.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std sleep.c
+100.04.10 19:46 B C:\TEMP\board\cmds\std\steal.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std steal.c
+100.04.10 19:46 B C:\TEMP\board\cmds\std\story.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std story.c
+100.04.10 19:46 B C:\TEMP\board\cmds\std\study.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std study.c
+100.04.10 19:46 B C:\TEMP\board\cmds\std\surrender.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std surrender.c
+100.04.10 19:46 B C:\TEMP\board\cmds\std\team.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std team.c
+100.04.10 19:46 B C:\TEMP\board\cmds\std\tell.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std tell.c
+100.04.10 19:46 B C:\TEMP\board\cmds\std\throw.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std throw.c
+100.04.10 19:46 B C:\TEMP\board\cmds\std\to.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std to.c
+100.04.10 19:46 B C:\TEMP\board\cmds\std\unwield.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std unwield.c
+100.04.10 19:46 B C:\TEMP\board\cmds\std\valid_kill.h <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std valid_kill.h
+100.04.10 19:46 B C:\TEMP\board\cmds\std\valid_move.h <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std valid_move.h
+100.04.10 19:46 B C:\TEMP\board\cmds\std\wear.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std wear.c
+100.04.10 19:46 B C:\TEMP\board\cmds\std\whisper.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std whisper.c
+100.04.10 19:46 B C:\TEMP\board\cmds\std\wield.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std wield.c
+100.04.10 19:46 B C:\TEMP\board\cmds\std\xiudao.c <-- 61.134.12.68 /home/dream/mud/xyj/cmds/std xiudao.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\abandon.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std abandon.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\accept.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std accept.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\apprentice.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std apprentice.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\ask.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std ask.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\bian.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std bian.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\block_tell.h --> 61.134.12.68 /home/dream/mud/xyj/cmds/std block_tell.h
+100.04.10 19:50 B C:\TEMP\board\cmds\std\buy.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std buy.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\buyy --> 61.134.12.68 /home/dream/mud/xyj/cmds/std buyy
+100.04.10 19:50 B C:\TEMP\board\cmds\std\cast.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std cast.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\chanting.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std chanting.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\check.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std check.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\close.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std close.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\dismount.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std dismount.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\drop.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std drop.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\emote.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std emote.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\enable.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std enable.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\enchant.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std enchant.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\enforce.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std enforce.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\exercise.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std exercise.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\exert.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std exert.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\expell.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std expell.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\fight.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std fight.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\find.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std find.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\fly.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std fly.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\follow.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std follow.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\get.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std get.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\give.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std give.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\go.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std go.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\hell_bing.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std hell_bing.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\invite.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std invite.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\ji.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std ji.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\kill.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std kill.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\kl.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std kl.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\learn.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std learn.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\localtime.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std localtime.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\look.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std look.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\marry.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std marry.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\meditate.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std meditate.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\mount.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std mount.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\observe.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std observe.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\open.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std open.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\perform.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std perform.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\practice.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std practice.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\propose.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std propose.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\protect.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std protect.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\put.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std put.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\quitroom.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std quitroom.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\recruit.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std recruit.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\remove.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std remove.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\reply.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std reply.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\say.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std say.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\score.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std score.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\scribe.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std scribe.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\shoot.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std shoot.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\shout.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std shout.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\sleep.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std sleep.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\steal.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std steal.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\story.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std story.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\study.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std study.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\surrender.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std surrender.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\team.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std team.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\tell.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std tell.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\throw.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std throw.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\to.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std to.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\unwield.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std unwield.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\valid_kill.h --> 61.134.12.68 /home/dream/mud/xyj/cmds/std valid_kill.h
+100.04.10 19:50 B C:\TEMP\board\cmds\std\valid_move.h --> 61.134.12.68 /home/dream/mud/xyj/cmds/std valid_move.h
+100.04.10 19:50 B C:\TEMP\board\cmds\std\wear.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std wear.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\whisper.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std whisper.c
+100.04.10 19:50 B C:\TEMP\board\cmds\std\wield.c --> 61.134.12.68 /home/dream/mud/xyj/cmds/std wield.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\WS_FTP.LOG <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std WS_FTP.LOG
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\abandon.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std abandon.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\accept.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std accept.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\alert.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std alert.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\apprentice.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std apprentice.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\ask.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std ask.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\bang.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std bang.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\bangtalk.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std bangtalk.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\bei.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std bei.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\bian.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std bian.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\block_tell.h <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std block_tell.h
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\busy_msg.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std busy_msg.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\buy.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std buy.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\buyy <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std buyy
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\cast.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std cast.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\ccast.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std ccast.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\chant.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std chant.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\chanting.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std chanting.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\check.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std check.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\close.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std close.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\cmds <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std cmds
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\conjure.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std conjure.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\curse.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std curse.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\cut.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std cut.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\dahan.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std dahan.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\dismount.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std dismount.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\drop.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std drop.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\emote.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std emote.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\enable.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std enable.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\enchant.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std enchant.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\enforce.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std enforce.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\exercise.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std exercise.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\exert.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std exert.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\expell.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std expell.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\fight.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std fight.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\find.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std find.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\find.map <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std find.map
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\fly.bk <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std fly.bk
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\fly.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std fly.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\follow.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std follow.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\get.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std get.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\get.c.bak <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std get.c.bak
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\get.canoe.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std get.canoe.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\get1.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std get1.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\give.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std give.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\give.dra <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std give.dra
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\go.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std go.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\hell_bing.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std hell_bing.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\invite.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std invite.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\ji.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std ji.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\jjf_bing.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std jjf_bing.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\kill.bk <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std kill.bk
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\kill.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std kill.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\kill.c.974545715 <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std kill.c.974545715
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\kill.canoe.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std kill.canoe.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\kquest.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std kquest.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\learn.bk <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std learn.bk
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\learn.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std learn.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\learn1.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std learn1.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\localtime.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std localtime.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\look.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std look.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\look.c.bak <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std look.c.bak
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\look.c.zurn <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std look.c.zurn
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\look1.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std look1.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\map.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std map.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\marry.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std marry.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\meditate.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std meditate.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\mount.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std mount.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\name.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std name.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\news.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std news.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\news.c.984230910 <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std news.c.984230910
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\news.canoe.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std news.canoe.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\observe.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std observe.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\open.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std open.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\pager.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std pager.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\perform.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std perform.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\perform.c.cnd <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std perform.c.cnd
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\perform1.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std perform1.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\pperform.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std pperform.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\practice.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std practice.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\propose.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std propose.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\protect.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std protect.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\put.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std put.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\qkill.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std qkill.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\qkill.c.bak <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std qkill.c.bak
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\qkills.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std qkills.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\quitroom.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std quitroom.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\recruit.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std recruit.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\remove.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std remove.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\reply.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std reply.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\research.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std research.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\respirate.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std respirate.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\say.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std say.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\score.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std score.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\scorea.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std scorea.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\scribe.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std scribe.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\shoot.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std shoot.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\shout.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std shout.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\sleep.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std sleep.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\ssteal.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std ssteal.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\steal.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std steal.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\story.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std story.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\study.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std study.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\suicide.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std suicide.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\surrender.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std surrender.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\team.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std team.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\teamkill.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std teamkill.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\tell.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std tell.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\temp <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std temp
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\throw.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std throw.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\tiaozhanpai.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std tiaozhanpai.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\to.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std to.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\unwield.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std unwield.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\valid_kill.h <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std valid_kill.h
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\valid_move.h <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std valid_move.h
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\validkill.h <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std validkill.h
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\wear.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std wear.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\whisper.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std whisper.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\wield.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std wield.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\xiudao.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std xiudao.c
+101.04.14 22:07 B C:\Documents and Settings\Administrator.ADMINBACKUP\桌面\xlqy.back\world\cmds\std\yingzhan.c <-- 202.102.208.188 /home/neo/mud/xlqy/world/xlqy.back/world/cmds/std yingzhan.c

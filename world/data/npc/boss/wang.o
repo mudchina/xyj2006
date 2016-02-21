@@ -1,0 +1,7 @@
+#/d/jz/npc/wang.c
+dbase (["title":"糖葫芦店老板娘","attitude":"peaceful","max_gin":436,"max_sen":1040,"combat_exp":15000,"atman":0,"sen":1040,"mana":0,"gin":436,"eff_gin":436,"eff_sen":1040,"actions":,"name":"王大嫂","gender":"女性","force":0,"vendor_goods":(["tang":"/d/jz/obj/tang","hai wan":"/d/jz/obj/wan",]),"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"kar":11,"str":28,"max_kee":1430,"unit":"位","cps":18,"int":19,"id":"wang dasao","cor":28,"race":"人类","default_actions":,"eff_kee":1430,"con":27,"long":"一位长得很仁慈的中年妇女。","spi":21,"per":24,"age":32,"can_speak":1,"kee":1430,"daoxing":15000,"startroom":"/d/jz/tanghulu",])
+skills (["dodge":30,])
+learned (["dodge":0,])
+SAVE_NAME "wang"
+price_ratio 10
+close_time 1156374517

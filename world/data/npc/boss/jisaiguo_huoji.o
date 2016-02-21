@@ -1,0 +1,5 @@
+#/d/qujing/jisaiguo/npc/huoji.c
+dbase (["cor":13,"name":"伙计","race":"人类","kar":24,"gender":"男性","int":19,"spi":10,"str":22,"cps":14,"default_actions":,"shop_id":({"huoji",}),"age":18,"max_sen":300,"shop_title":"小伙计","kee":300,"max_kee":300,"eff_kee":300,"per":15,"id":"huoji","combat_exp":1000,"startroom":"/d/qujing/jisaiguo/bamboo","attitude":"friendly","con":29,"actions":,"sen":300,"vendor_goods":(["sword":"/d/obj/weapon/sword/zhujian","broom":"/d/lingtai/obj/shaoba","blade":"/d/obj/weapon/blade/zhudao","zhulou":"/d/qujing/jisaiguo/obj/zhulou",]),"eff_gin":140,"force":0,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"mana":0,"atman":0,"can_speak":1,"max_gin":140,"eff_sen":300,"unit":"位","gin":140,])
+SAVE_NAME "jisaiguo_huoji"
+price_ratio 10
+close_time 1155822869

@@ -1,0 +1,10 @@
+#/d/city/npc/pig_counter.c
+dbase (["can_speak":1,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"max_sen":444,"gin":128,"max_gin":128,"mana":0,"kar":23,"eff_sen":444,"shop_id":({"king","pig",}),"race":"人类","str":26,"unit":"位","max_kee":636,"attitude":"peaceful","sen":444,"cps":26,"int":23,"vendor_goods":(["putao":"/d/obj/food/grape","cha gan":"/d/obj/food/chagan","pig":"/d/obj/food/pig","cake":"/d/obj/food/cake","jiudai":"/d/obj/food/huadiao-jiudai","putao gan":"/d/obj/food/putaogan","huasheng":"/d/obj/food/wuxianghuasheng",]),"atman":0,"id":"pig king","cor":17,"inquiry":(["等级分":,"rank":,"pig":,"排名":,]),"actions":,"con":27,"eff_gin":0,"spi":14,"per":15,"eff_kee":636,"name":"拱猪王","age":16,"default_actions":,"gender":"男性","force":0,"kee":636,])
+SAVE_NAME "city_pig_counter"
+price_ratio 10
+close_time 120
+pig_id ({})
+pig_name ({})
+pig_rank ({})
+who_played ({})
+next_time 1156476763

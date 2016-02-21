@@ -1,0 +1,630 @@
+//绿野仙踪.lestat 2001
+
+// natured.c
+#include <ansi.h>
+#define TIME_TICK (time()*60-890000000)
+#define TIME_TICK1 (time()*60-890000000)
+// TIME_TICE1 also use in move.c look.c
+static int current_day_phase;
+//int current_month;//新增
+mapping *day_phase;
+
+string *weather_msg = ({
+        "天空中万里无云",
+        "几朵淡淡的云彩妆点著清朗的天空",
+        "白云在天空中飘来飘去",
+        "厚厚的云层堆积在天边",
+        "天空中乌云密布",
+});
+
+mapping *read_table(string file);
+void init_day_phase();
+
+void create()
+{
+		string get_month, get_day;
+	mixed *local;
+	local = localtime(TIME_TICK1);
+        get_day = CHINESE_D->chinese_number(local[3]);
+	get_month = CHINESE_D->chinese_number(local[4]);
+	switch(get_month)
+	{
+		//spring weather
+		case "三":
+		case "四":
+		case "五":
+		     switch(random(3))
+		     {
+			case 0:
+			   day_phase = read_table("/adm/etc/nature/spring_rain");
+			   break;
+			case 1:
+			   day_phase = read_table("/adm/etc/nature/spring_sun");
+			   break;
+			case 2:
+			   day_phase = read_table("/adm/etc/nature/spring_wind");
+			   break;
+		     }
+		     break;
+		//summer weather
+		case "六":
+		case "七":
+		case "八":
+		     switch(random(3))
+		     {
+			case 0:
+			   day_phase = read_table("/adm/etc/nature/summer_rain");
+			   break;
+			case 1:
+			   day_phase = read_table("/adm/etc/nature/summer_sun");
+			   break;
+			case 2:
+			   day_phase = read_table("/adm/etc/nature/summer_wind");
+			   break;
+		     }
+		     break;
+		//autumn weather
+		case "九":
+		case "十":
+		case "十一":
+		     switch(random(3))
+		     {
+			case 0:
+			   day_phase = read_table("/adm/etc/nature/autumn_rain");
+			   break;
+			case 1:
+			   day_phase = read_table("/adm/etc/nature/autumn_sun");
+			   break;
+			case 2:
+			   day_phase = read_table("/adm/etc/nature/autumn_wind");
+			   break;
+		     }
+		     break;
+		//winter weather
+                case "零":
+		case "二":
+		     switch(random(3))
+		     {
+			case 0:
+			   day_phase = read_table("/adm/etc/nature/winter_rain");
+			   break;
+			case 1:		
+			   day_phase = read_table("/adm/etc/nature/winter_sun");
+			   break;
+			case 2:
+			   day_phase = read_table("/adm/etc/nature/winter_wind");
+			   break;
+		     }
+		case "一":
+		        if(get_day=="一")
+		      { day_phase = read_table("/adm/etc/nature/spring");break;}
+		      else switch(random(3))
+		     {
+			case 0:
+			   day_phase = read_table("/adm/etc/nature/winter_rain");
+			   break;
+			case 1:		
+			   day_phase = read_table("/adm/etc/nature/winter_sun");
+			   break;
+			case 2:
+			   day_phase = read_table("/adm/etc/nature/winter_wind");
+			   break;
+		     }
+		        
+		     break;
+		default:
+		     day_phase = read_table("/adm/etc/nature/day_phase");
+	}
+
+
+	init_day_phase();
+ //       day_phase = read_table("/adm/etc/nature/day_phase");原来@@@@@@@@
+ //       init_day_phase();原来@@@@@@@@@
+}
+
+void init_day_phase()
+{
+        mixed *local;
+        int i, t;
+
+        // Get minutes of today.
+        local = localtime(TIME_TICK1);
+        t = local[2] * 60 + local[1];           // hour * 60 + minutes
+
+        // Find the day phase for now.
+        for( i=0; i < sizeof(day_phase); i++)
+                if( t >= day_phase[i]["length"] )
+                        t -= (int)day_phase[i]["length"];
+                else
+                        break;
+
+        current_day_phase = (i==0? sizeof(day_phase)-1: i - 1);
+
+        // Since in our time scale, 1 minute == 1 second in RL, so we don't need
+        // any conversion before using this number as call_out dalay, if you
+        // changed the time scale, be sure to convert it.
+
+        call_out("update_day_phase",
+      (int)day_phase[(current_day_phase+1) % sizeof(day_phase)]["length"] - t);
+}
+
+void update_day_phase()
+{
+        remove_call_out("update_day_phase");
+
+        current_day_phase = (++current_day_phase) % sizeof(day_phase);
+        switch (day_phase[current_day_phase]["outcolor"])
+        {
+              case "BLK":
+                   message("channel:chat", HIW"【"+HIG"窗外"+HIW"】"BLK + day_phase[current_day_phase]["time_msg"] + "\n"NOR, users());
+                   break;
+              case "RED":
+                   message("channel:chat", HIW"【"+HIG"窗外"+HIW"】"RED + day_phase[current_day_phase]["time_msg"] + "\n"NOR, users());
+                   break;
+              case "HIR":
+                   message("channel:chat", HIW"【"+HIG"窗外"+HIW"】"HIR + day_phase[current_day_phase]["time_msg"] + "\n"NOR, users());
+                   break;
+              case "GRN":
+                   message("channel:chat", HIW"【"+HIG"窗外"+HIW"】"GRN + day_phase[current_day_phase]["time_msg"] + "\n"NOR, users());
+                   break;
+              case "HIG":
+                   message("channel:chat", HIW"【"+HIG"窗外"+HIW"】"HIG + day_phase[current_day_phase]["time_msg"] + "\n"NOR, users());
+                   break;
+              case "YEL":
+                   message("channel:chat", HIW"【"+HIG"窗外"+HIW"】"YEL + day_phase[current_day_phase]["time_msg"] + "\n"NOR, users());
+                   break;
+              case "HIY":
+                   message("channel:chat", HIW"【"+HIG"窗外"+HIW"】"HIY + day_phase[current_day_phase]["time_msg"] + "\n"NOR, users());
+                   break;
+              case "BLU":
+                   message("channel:chat", HIW"【"+HIG"窗外"+HIW"】"BLU + day_phase[current_day_phase]["time_msg"] + "\n"NOR, users());
+                   break;
+              case "HIB":
+                   message("channel:chat", HIW"【"+HIG"窗外"+HIW"】"HIB + day_phase[current_day_phase]["time_msg"] + "\n"NOR, users());
+                   break;
+              case "MAG":
+                   message("channel:chat", HIW"【"+HIG"窗外"+HIW"】"MAG + day_phase[current_day_phase]["time_msg"] + "\n"NOR, users());
+                   break;
+              case "HIM":
+                   message("channel:chat", HIW"【"+HIG"窗外"+HIW"】"HIM + day_phase[current_day_phase]["time_msg"] + "\n"NOR, users());
+                   break;
+              case "CYN":
+                   message("channel:chat", HIW"【"+HIG"窗外"+HIW"】"CYN + day_phase[current_day_phase]["time_msg"] + "\n"NOR, users());
+                   break;
+              case "HIC":
+                   message("channel:chat", HIW"【"+HIG"窗外"+HIW"】"HIC + day_phase[current_day_phase]["time_msg"] + "\n"NOR, users());
+                   break;
+              case "WHT":
+                   message("channel:chat", HIW"【"+HIG"窗外"+HIW"】"WHT + day_phase[current_day_phase]["time_msg"] + "\n"NOR, users());
+                   break;
+              case "HIW":
+                   message("channel:chat", HIW"【"+HIG"窗外"+HIW"】"HIW + day_phase[current_day_phase]["time_msg"] + "\n"NOR, users());
+                   break;
+              default:
+                   message("channel:chat", HIW"【"+HIG"窗外"+HIW"】"HIG + day_phase[current_day_phase]["time_msg"] + "\n"NOR, users());
+                   break;
+        }
+//        message("outdoor:vision", day_phase[current_day_phase]["time_msg"] + "\n", users());
+        if( !undefinedp(day_phase[current_day_phase]["event_fun"]) )
+            call_other(this_object(), day_phase[current_day_phase]["event_fun"]);
+
+        call_out("update_day_phase", day_phase[current_day_phase]["length"]);
+}
+
+void event_sunrise()//event_morning()@@@@@@@@@
+{
+	object badguy;
+	object room;
+        if (random(12) == 1)
+        {
+		if(objectp(room=load_object("/d/death/walk3")) && 
+		objectp(badguy = new("/quest/feizei/yaoguai")))
+		badguy->move(room);
+		badguy->command("chat 洞府得找几个门卫了！");
+  message("channel:chat", HIB"【"+HIR"元始天尊"+HIB"】"HIW + "阴曹地府"HIM + "近日常有鬼卒失踪,疑是妖怪所为！\n"NOR,users() );
+	}
+        if (random(12) == 2)
+        {
+		if(objectp(room=load_object("/d/qujing/wuzhuang/gate")) && 
+		objectp(badguy = new("/quest/feizei/yaoguai")))
+		badguy->move(room);
+	    badguy->command("chat 肚子有点饿了,找点活物过早！");
+  message("channel:chat", HIB"【"+HIR"元始天尊"+HIB"】"HIW + "五庄观"HIM + "近日常有道童失踪,疑是妖怪所为！\n"NOR,users() );
+	}
+        if (random(12) == 3)
+        {
+		if(objectp(room=load_object("/d/jjf/side_keting")) && 
+		objectp(badguy = new("/quest/feizei/yaoguai")))
+		badguy->move(room);
+		badguy->command("chat 好个秦琼,居然伤了我的手下！");
+ message("channel:chat", HIB"【"+HIR"元始天尊"+HIB"】"HIW + "将军府"HIM + "近日常有士兵失踪,疑是妖怪所为！\n"NOR,users() );
+	}
+        if (random(12) == 4)
+        {
+		if(objectp(room=load_object("/d/moon/huilang")) && 
+		objectp(badguy = new("/quest/feizei/yaoguai")))
+		badguy->move(room);
+		badguy->command("chat 听说月宫有秘传的养颜术！");
+  message("channel:chat", HIB"【"+HIR"元始天尊"+HIB"】"HIW + "广寒宫"HIM + "近日常有少女失踪,疑是妖怪所为！\n"NOR,users() );
+	}
+        if (random(12) == 5)
+        {
+		if(objectp(room=load_object("/d/city/center")) && 
+		objectp(badguy = new("/quest/feizei/yaoguai")))
+		badguy->move(room);
+		badguy->command("chat 听说大唐皇宫宝物不少?");
+message("channel:chat", HIB"【"+HIR"元始天尊"+HIB"】"HIW + "大唐皇宫"HIM + "近日常有珠宝失踪,疑是妖怪所为！\n"NOR,users() );
+	}
+        if (random(12) == 6)
+        {
+		if(objectp(room=load_object("/d/nanhai/road11")) && 
+		objectp(badguy = new("/quest/feizei/yaoguai")))
+		badguy->move(room);
+		badguy->command("chat 九头驸马的老丈人死了,得找几个和尚超度超度！");
+message("channel:chat", HIB"【"+HIR"元始天尊"+HIB"】"HIW + "南海普托"HIM + "近日常有僧侣失踪,疑是妖怪所为！\n"NOR,users() );
+	}
+        if (random(12) == 7)
+        {
+		if(objectp(room=load_object("/d/xueshan/shanpo")) && 
+		objectp(badguy = new("/quest/feizei/yaoguai")))
+		badguy->move(room);
+		badguy->command("chat 昨天不小心把侍从给吃了,我KAO！");
+  message("channel:chat", HIB"【"+HIR"元始天尊"+HIB"】"HIW + "大雪山"HIM + "近日常有侍者失踪,疑是妖怪所为！\n"NOR,users() );
+	}
+        if (random(12) == 8)
+        {
+		if(objectp(room=load_object("/d/shushan/shanjiao")) && 
+		objectp(badguy = new("/quest/feizei/yaoguai")))
+		badguy->move(room);
+		badguy->command("chat 蜀山的那几个小剑童眉清目秀的,真是想死我了！");
+  message("channel:chat", HIB"【"+HIR"元始天尊"+HIB"】"HIW + "蜀山"HIM + "近日常有剑童失踪,疑是妖怪所为！\n"NOR,users() );
+	}
+        if (random(12) == 9)
+        {
+		if(objectp(room=load_object("/d/qujing/wudidong/square2")) && 
+		objectp(badguy = new("/quest/feizei/yaoguai")))
+		badguy->move(room);
+		badguy->command("chat 过两天要去参加牛魔王的大宴,得抓几个小妖充充门面！");
+  message("channel:chat", HIB"【"+HIR"元始天尊"+HIB"】"HIW + "无底洞"HIM + "近日常有小妖失踪,疑是妖怪所为！\n"NOR,users() );
+	}
+        if (random(12) == 10)
+        {
+		if(objectp(room=load_object("/d/qujing/wuji/shandao5")) && 
+		objectp(badguy = new("/quest/feizei/yaoguai")))
+		badguy->move(room);
+		badguy->command("chat 前两天火并,死了几个手下,哎！");
+  message("channel:chat", HIB"【"+HIR"元始天尊"+HIB"】"HIW + "火云洞"HIM + "近日常有健将失踪,疑是妖怪所为！\n"NOR,users() );
+	}
+        if (random(12) == 11)
+        {
+		if(objectp(room=load_object("/d/lingtai/baixi")) && 
+		objectp(badguy = new("/quest/feizei/yaoguai")))
+		badguy->move(room);
+		badguy->command("chat 修炼可真辛苦,吃几个道士加点道行！");
+  message("channel:chat", HIB"【"+HIR"元始天尊"+HIB"】"HIW + "方寸山"HIM + "近日常有道士失踪,疑是妖怪所为！\n"NOR,users() );
+	}
+        if (random(12) == 12)
+        {
+		if(objectp(room=load_object("/d/sea/huilang8")) && 
+		objectp(badguy = new("/quest/feizei/yaoguai")))
+		badguy->move(room);
+		badguy->command("chat 洞府里的宫娥不够了,嗯！");
+  message("channel:chat", HIB"【"+HIR"元始天尊"+HIB"】"HIW + "东海龙宫"HIM + "近日常有宫娥失踪,疑是妖怪所为！\n"NOR,users() );
+	}
+}
+void event_night()
+{
+	object badguy;
+	object room;
+        if (random(12) == 1)
+        {
+		if(objectp(room=load_object("/d/city/center")) && 
+		objectp(badguy = new("/quest/feizei/feizei")))
+		badguy->move(room);
+  message("channel:chat", HIW"【大唐告示】"HIY + "长安城"HIR + "今夜有飞贼横行，良民百姓请闭门不出，切莫自误！\n"NOR,users() );
+	}
+        if (random(12) == 2)
+        {
+		if(objectp(room=load_object("/d/kaifeng/tieta")) && 
+		objectp(badguy = new("/quest/feizei/feizei")))
+		badguy->move(room);
+  message("channel:chat", HIW"【大唐告示】"HIY + "开封城"HIR + "今夜有飞贼横行，良民百姓请闭门不出，切莫自误！\n"NOR,users() );
+	}
+        if (random(12) == 3)
+        {
+		if(objectp(room=load_object("/d/qujing/baoxiang/dian4")) && 
+		objectp(badguy = new("/quest/feizei/feizei")))
+		badguy->move(room);
+  message("channel:chat", HIW"【大唐告示】"HIY + "宝象国"HIR + "今夜有飞贼横行，良民百姓请闭门不出，切莫自误！\n"NOR,users() );
+	}
+        if (random(12) == 4)
+        {
+		if(objectp(room=load_object("/d/qujing/biqiu/da")) && 
+		objectp(badguy = new("/quest/feizei/feizei")))
+		badguy->move(room);
+  message("channel:chat", HIW"【大唐告示】"HIY + "比丘国"HIR + "今夜有飞贼横行，良民百姓请闭门不出，切莫自误！\n"NOR,users() );
+	}
+        if (random(12) == 5)
+        {
+		if(objectp(room=load_object("/d/qujing/chechi/caichang")) && 
+		objectp(badguy = new("/quest/feizei/feizei")))
+		badguy->move(room);
+  message("channel:chat", HIW"【大唐告示】"HIY + "车迟国"HIR + "今夜有飞贼横行，良民百姓请闭门不出，切莫自误！\n"NOR,users() );
+	}
+        if (random(12) == 6)
+        {
+		if(objectp(room=load_object("/d/qujing/fengxian/daochang")) && 
+		objectp(badguy = new("/quest/feizei/feizei")))
+		badguy->move(room);
+  message("channel:chat", HIW"【大唐告示】"HIY + "凤仙郡"HIR + "今夜有飞贼横行，良民百姓请闭门不出，切莫自误！\n"NOR,users() );
+	}
+        if (random(12) == 7)
+        {
+		if(objectp(room=load_object("/d/qujing/jiping/fumen")) && 
+		objectp(badguy = new("/quest/feizei/feizei")))
+		badguy->move(room);
+  message("channel:chat", HIW"【大唐告示】"HIY + "金平府"HIR + "今夜有飞贼横行，良民百姓请闭门不出，切莫自误！\n"NOR,users() );
+	}
+        if (random(12) == 8)
+        {
+		if(objectp(room=load_object("/d/qujing/nuerguo/annei")) && 
+		objectp(badguy = new("/quest/feizei/feizei")))
+		badguy->move(room);
+  message("channel:chat", HIW"【大唐告示】"HIY + "女儿国"HIR + "今夜有飞贼横行，良民百姓请闭门不出，切莫自误！\n"NOR,users() );
+	}
+        if (random(12) == 9)
+        {
+		if(objectp(room=load_object("/d/qujing/jisaiguo/jitan")) && 
+		objectp(badguy = new("/quest/feizei/feizei")))
+		badguy->move(room);
+  message("channel:chat", HIW"【大唐告示】"HIY + "祭赛国"HIR + "今夜有飞贼横行，良民百姓请闭门不出，切莫自误！\n"NOR,users() );
+	}
+        if (random(12) == 10)
+        {
+		if(objectp(room=load_object("/d/qujing/wuji/jitan")) && 
+		objectp(badguy = new("/quest/feizei/feizei")))
+		badguy->move(room);
+  message("channel:chat", HIW"【大唐告示】"HIY + "乌鸡国"HIR + "今夜有飞贼横行，良民百姓请闭门不出，切莫自误！\n"NOR,users() );
+	}
+        if (random(12) == 11)
+        {
+		if(objectp(room=load_object("/d/qujing/tianzhu/maodian")) && 
+		objectp(badguy = new("/quest/feizei/feizei")))
+		badguy->move(room);
+  message("channel:chat", HIW"【大唐告示】"HIY + "天竺"HIR + "今夜有飞贼横行，良民百姓请闭门不出，切莫自误！\n"NOR,users() );
+	}
+        if (random(12) == 12)
+        {
+		if(objectp(room=load_object("/d/qujing/yuhua/da")) && 
+		objectp(badguy = new("/quest/feizei/feizei")))
+		badguy->move(room);
+  message("channel:chat", HIW"【大唐告示】"HIY + "玉华县"HIR + "今夜有飞贼横行，良民百姓请闭门不出，切莫自误！\n"NOR,users() );
+	}
+
+}
+void event_afternoon()
+{
+	object *ob_list;
+	int i;
+	ob_list = children("/quest/feizei/yaoguai");
+                for(i=0; i<sizeof(ob_list); i++) 
+		if(environment(ob_list[i]))
+		{
+		message_vision("$N说道：今天吃了不少鲜活人肉,我闪！\n",ob_list[i]);
+			destruct(ob_list[i]);
+                }
+
+}
+
+void event_dawn()
+{
+	object *ob_list;
+	int i;
+	ob_list = children("/quest/feizei/feizei");
+                for(i=0; i<sizeof(ob_list); i++) 
+		if(environment(ob_list[i]))
+		{
+			message_vision("$N笑道：天亮了，东西也到手了，我闪！\n",ob_list[i]);
+			destruct(ob_list[i]);
+                }
+}
+
+void event_midnight()
+{
+        string get_month, get_day;
+        get_day = CHINESE_D->chinese_monthday(TIME_TICK1);
+        get_month = CHINESE_D->chinese_month(TIME_TICK1);
+        switch(get_month)
+        {
+                //spring weather
+                case "三":
+                case "四":
+                case "五":
+                     switch(random(3))
+                     {
+                        case 0:
+                           day_phase = read_table("/adm/etc/nature/spring_rain");
+                           break;
+                        case 1:
+                           day_phase = read_table("/adm/etc/nature/spring_sun");
+                           break;
+                        case 2:
+                           day_phase = read_table("/adm/etc/nature/spring_wind");
+                           break;
+                     }
+                     break;
+                //summer weather
+                case "六":
+                case "七":
+                case "八":
+                     switch(random(3))
+                     {
+                        case 0:
+                           day_phase = read_table("/adm/etc/nature/summer_rain");
+                           break;
+                        case 1:
+                           day_phase = read_table("/adm/etc/nature/summer_sun");
+                           break;
+                        case 2:
+                           day_phase = read_table("/adm/etc/nature/summer_wind");
+                           break;
+                     }
+                     break;
+                //autumn weather
+                case "九":
+                case "十":
+                case "十一":
+                     switch(random(3))
+                     {
+                        case 0:
+                           day_phase = read_table("/adm/etc/nature/autumn_rain");
+                           break;
+                        case 1:
+                           day_phase = read_table("/adm/etc/nature/autumn_sun");
+                           break;
+                        case 2:
+                           day_phase = read_table("/adm/etc/nature/autumn_wind");
+                           break;
+                     }
+                     break;
+                //winter weather
+                case "十二":
+                case "一":
+                case "二":
+                     switch(random(3))
+                     {
+                        case 0:
+                           day_phase = read_table("/adm/etc/nature/winter_rain");
+                           break;
+                        case 1:
+                           day_phase = read_table("/adm/etc/nature/winter_sun");
+                           break;
+                        case 2:
+                           day_phase = read_table("/adm/etc/nature/winter_wind");
+                           break;
+                     }
+                     break;
+                default:
+                     day_phase = read_table("/adm/etc/nature/day_phase");
+        }
+//        switch(get_day)
+//        {
+//                case "一月一日":
+//                     day_phase = read_table("/adm/etc/nature/spring");
+//                     break;
+//                case "五月五日":
+//                case "七月七日":
+//                case "八月十五日":
+//                case "九月九日":
+//                case "十二月八日":
+//        }
+}
+
+// This is called everyday noon by update_day_phase, defined in the
+// "event_fun" field in /adm/etc/nature/day_phase
+/*
+void event_noon()
+{
+        object *ob;
+        int i, skill,con,con1,con2,con3;
+        string get_month,ill,msg;
+        get_month = CHINESE_D->chinese_month(TIME_TICK1);
+        switch(get_month)
+        {
+                case "三":
+                case "四":
+                case "五":
+                     ill = "ill_kesou";
+                     msg = HIG + "忽然喉头一阵痕痒，你感觉似乎要咳嗽了。\n" + NOR;
+                     break;
+                case "六":
+                case "七":
+                case "八":
+                     ill = "ill_zhongshu";
+                     msg = HIG+"突然你胸臆之间一阵翻腾，你中暑了。\n" + NOR;
+                     break;
+                case "九":
+                case "十":
+                case "十一":
+                     ill = "ill_shanghan";
+                     msg = HIG+"陡的你打了个冷战，头昏沉沉的，你得伤寒病了。\n"+NOR;
+                     break;
+                case "十二":
+                case "一":
+                case "二":
+                     ill = "ill_dongshang";
+                     msg = HIG+"你肢体末端一阵僵直，看来你被冻伤了。\n"+NOR;
+                     break;
+        }
+        if(random(2))
+        {
+                ill = "ill_fashao";msg = HIG+"你偶感风寒，竟而发起烧来。\n"+NOR;
+        }
+        ob = users();
+        for(i=0; i<sizeof(ob); i++)
+        {
+                if( !environment(ob[i]) ) continue;
+                if( !environment(ob[i])->query("outdoors") ) continue;
+                if( ob[i]->query("age")==14 ) continue;
+                con1 = ob[i]->query("kee");
+                con2 = ob[i]->query("max_kee");
+                (int)con = con1/con2*50;//形成第一个生病判断条件
+                con3 = ob[i]->query("force");
+                con2 = ob[i]->query("max_force");
+		if( con2 == 0) con2 = 1;
+                (int)con1 = con3/con2*50;//形成第二个生病判断条件
+                if(random(con)+random(50)+random(con1)<25)
+                {
+                        ob[i]->apply_condition(ill, 10);
+                        tell_object(ob[i], msg);
+                }
+        }
+}
+*/
+string outdoor_room_description()
+{
+        return "    " + day_phase[current_day_phase]["desc_msg"] + "。\n";
+}
+string outdoor_room_outcolor()
+{
+        return day_phase[current_day_phase]["outcolor"];
+}
+
+string game_time()
+{
+        return CHINESE_D->chinese_date(TIME_TICK1);
+}
+
+mapping *read_table(string file)
+{
+        string *line, *field, *format;
+        mapping *data;
+        int i, rn, fn;
+
+        line = explode(read_file(file), "\n");
+        data = ({});
+        for(i=0; i<sizeof(line); i++) {
+                if( line[i]=="" || line[i][0]=='#' ) continue;
+                if( !pointerp(field) ) {
+                        field = explode( line[i], ":" );
+                        continue;
+                }
+                if( !pointerp(format) ) {
+                        format = explode( line[i], ":" );
+                        continue;
+                }
+                break;
+        }
+
+        for( rn = 0, fn = 0; i<sizeof(line); i++) {
+                if( line[i]=="" || line[i][0]=='#' ) continue;
+                if( !fn ) data += ({ allocate_mapping(sizeof(field)) });
+                sscanf( line[i], format[fn], data[rn][field[fn]] );
+                fn = (++fn) % sizeof(field);
+                if( !fn ) ++rn;
+        }
+        return data;
+}
+
+mapping *query_day_phase() { return day_phase; }
+

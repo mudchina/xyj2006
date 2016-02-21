@@ -1,0 +1,18 @@
+// ironarmor.c
+inherit EQUIP;
+
+void create()
+{
+        set_name("Ìú¼×", ({"tie jia","tiejia","jia","armor"}));
+        set_weight(50000);
+        if( clonep() )
+                set_default_object(__FILE__);
+        else {
+                set("unit", "¼þ");
+	    set("long", "Ò»¼þ³ÁµéµéµÄÌú¼×¡£\n");
+                set("value", 5000);
+                set("material", "iron");
+                set("armor_type", "cloth");
+                set("armor_prop/armor", 50);
+             }
+}

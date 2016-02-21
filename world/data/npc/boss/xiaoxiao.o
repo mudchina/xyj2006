@@ -1,0 +1,8 @@
+#/d/city/npc/xiaoxiao.c
+dbase (["atman":0,"actions":,"startroom":"/d/city/bingqipu","title":"恶娘子","max_gin":397,"default_actions":,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"mana":0,"age":25,"eff_sen":819,"can_speak":1,"vendor_goods":(["blade":"/d/obj/weapon/blade/blade","dagger":"/d/obj/weapon/dagger/dagger.c","sword":"/d/obj/weapon/sword/changjian","hammer":"/d/obj/weapon/hammer/hammer","tielian":"/d/obj/weapon/whip/tielian","fork":"/d/obj/weapon/fork/fork","shield":"/d/obj/armor/niupi","staff":"/d/obj/weapon/staff/chanzhang","spear":"/d/obj/weapon/spear/tieqiang","tiegun":"/d/obj/weapon/stick/bintiegun","axe":"/d/obj/weapon/axe/tiefu.c",]),"kee":596,"max_kee":596,"race":"人类","gin":397,"attitude":"peaceful","name":"萧萧","long":"老英雄萧振远的小女儿，兵器铺女老板。由于凶蛮狠毒，江湖人称＂恶娘子＂。","gender":"女性","force":200,"sen":819,"max_force":200,"combat_exp":70000,"unit":"位","eff_gin":397,"kar":14,"force_factor":5,"str":15,"max_sen":819,"cps":17,"id":"xiao xiao","int":12,"eff_kee":596,"cor":23,"con":11,"spi":27,"per":24,])
+skills (["unarmed":50,"dodge":50,"parry":50,"fonxansword":30,"sword":50,"moondance":50,])
+learned (["unarmed":0,"dodge":0,"parry":0,"fonxansword":0,"sword":0,"moondance":0,])
+skill_map (["dodge":"moondance","parry":"fonxansword","sword":"fonxansword",])
+SAVE_NAME "xiaoxiao"
+price_ratio 10
+close_time 1156379768

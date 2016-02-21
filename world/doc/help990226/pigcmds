@@ -1,0 +1,23 @@
+拱猪规则
+
+⒈请用 sit <direction> 入座。凑齐四个人就可以开拱了。
+
+⒉开拱后，请用 deal 要求发牌。
+
+⒊请用 sell [-m] <card> 卖牌：-m 表示明卖（参考 pigrules）。
+　请用 pass 停卖。四人都停卖后，就可开打了。
+
+⒋请用 play <card> 出牌。出牌时，s 代表黑桃（spades），h 红桃
+　（hearts），d 方片（diamonds），c 草花（clubs）。牌的大小从
+　２到Ａ，分别由2…9，T （Ten），J （Jack），Q （Queen），
+　K （King），和 A （Ace）。例：play hq 表示出红桃Ｑ。
+
+⒌如果你认为手中的牌都大了，用 claim all 来要求全收。
+
+⒍用 l hand 查手里的牌；用 l collected 查卖过的牌和各人收的牌。
+　用 l note 查各人得分。用 l table 查桌子上的牌。
+
+⒎可 set brief_message，只影响 l table。
+
+⒏用 leave 离开桌子。
+

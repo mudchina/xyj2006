@@ -1,0 +1,9 @@
+#the banned sites can contain both IP and port, or IP only
+^0\.
+#pirated zh site code.
+^210\.34\.48\.49
+^168.160.188
+^202.96.102.104
+^202.96.112.
+^202.96.100.
+^202.96.98.

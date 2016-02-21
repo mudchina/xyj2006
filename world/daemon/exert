@@ -1,0 +1,13 @@
+current exert functions. 8/10/97 mon
+
+./force/recover.c:int exert(object me, object target)
+./force/refresh.c:int exert(object me, object target)
+./force/regenerate.c:int exert(object me, object target)
+./force/transfer.c:int exert(object me, object target)
+./bonze/lotusforce/heal.c:int exert(object me, object target)
+./bonze/lotusforce/lifeheal.c:int exert(object me, object target)
+./puti/wuxiangforce/heal.c:int exert(object me, object target)
+./moon/moonforce/heal.c:int exert(object me, object target)
+./ghost/tonsillitis/powerfade.c:int exert(object me, object target)
+./ghost/tonsillitis/powerup.c:int exert(object me, object target)
+./ghost/tonsillitis/sheqi.c:int exert(object me, object target)

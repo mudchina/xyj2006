@@ -1,0 +1,7 @@
+#/d/qujing/zhuzi/npc/mi.c
+dbase (["attitude":"friendly","atman":0,"shen_type":1,"startroom":"/d/qujing/zhuzi/mipu","actions":,"name":"米老板","max_gin":388,"gender":"男性","unit":"位","limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"can_speak":1,"kee":962,"max_kee":962,"race":"人类","id":"mi laoban","channel":(["last_tell":1154955617,"tell_count":0,]),"vendor_goods":(["fan":"/d/obj/food/rice","youhulu":"/d/obj/food/youhulu","zongzi":"/d/obj/food/zongzi","yan":"/d/obj/food/salt","mijiu":"/d/obj/food/mijiu","niangao":"/d/obj/food/niangao",]),"mana":0,"age":50,"shop_id":({"laoban",}),"eff_sen":1094,"sen":1094,"force":0,"eff_gin":388,"combat_exp":5000,"kar":18,"str":12,"default_actions":,"max_sen":1094,"cps":24,"int":26,"cor":13,"eff_kee":962,"con":25,"spi":18,"gin":388,"per":34,])
+skills (["unarmed":50,])
+learned (["unarmed":0,])
+SAVE_NAME "zhuzi_mi_laoban"
+price_ratio 10
+close_time 1155982132

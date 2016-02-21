@@ -1,0 +1,7 @@
+#/d/jz/npc/ling.c
+dbase (["title":"汤圆店老板","attitude":"peaceful","max_gin":580,"max_sen":1316,"combat_exp":20000,"force_factor":5,"atman":0,"sen":1316,"mana":0,"gin":580,"eff_gin":580,"eff_sen":1316,"actions":,"name":"凌汤圆","gender":"男性","force":200,"vendor_goods":(["blackty":"/d/jz/obj/ty3","redty":"/d/jz/obj/ty1","yellowty":"/d/jz/obj/ty4","greenty":"/d/jz/obj/ty2",]),"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"kar":19,"str":30,"max_kee":1610,"unit":"位","cps":20,"max_force":200,"int":21,"id":"ling","cor":24,"race":"人类","default_actions":,"eff_kee":1610,"con":30,"long":"一个看起来很精明的商人。","spi":30,"per":22,"age":42,"can_speak":1,"kee":1610,"daoxing":20000,"startroom":"/d/jz/tangyuan",])
+skills (["unarmed":50,"dodge":50,"force":50,"parry":50,])
+learned (["unarmed":0,"dodge":0,"force":0,"parry":0,])
+SAVE_NAME "ling"
+price_ratio 10
+close_time 1156374568

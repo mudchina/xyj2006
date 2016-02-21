@@ -1,0 +1,5 @@
+#/d/ourhome/npc/xiaoer.c
+dbase (["atman":0,"actions":,"startroom":"/d/ourhome/kedian","max_gin":268,"default_actions":,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"mana":0,"age":22,"eff_sen":720,"can_speak":1,"vendor_goods":(["xigua":"/d/ourhome/obj/watermelon","jiudai":"/d/ourhome/obj/hdjiudai","jitui":"/d/ourhome/obj/jitui","gourou":"/d/ourhome/obj/gourou",]),"kee":702,"max_kee":702,"gin":268,"race":"人类","attitude":"friendly","name":"店小二","gender":"男性","long":"这位店小二正笑咪咪地忙着，还不时拿起挂在脖子上的抹布擦擦手。 ","force":0,"sen":720,"combat_exp":5,"unit":"位","kar":20,"eff_gin":268,"shop_id":({"waiter","xiaoer","xiao","er",}),"str":18,"max_sen":720,"cps":25,"id":"xiao er","int":19,"shop_title":"店小二","eff_kee":702,"rank_info":(["respect":"小二哥",]),"cor":28,"con":21,"spi":21,"per":22,])
+SAVE_NAME "ourhome_xiaoer"
+price_ratio 10
+close_time 1156379639

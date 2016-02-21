@@ -1,0 +1,5 @@
+#/obj/user.c
+dbase (["mud_age":2713,"actions":,"title":"大唐游民","maximum_mana":800,"birthday":1154882995,"maximum_force":800,"potential":40000,"max_gin":100,"no_magic":1,"food":42,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"mana":800,"water":42,"can_speak":1,"daoxing":87750,"max_mana":800,"disable_type":" <昏迷不醒>","age":14,"eff_sen":700,"kee":236,"channels":({"chat","rumor","xyj","sldh","es",}),"bellicosity":1,"max_kee":600,"lestat":(["gift":"got",]),"race":"人类","name":"想日马丽娜","default_actions":,"gender":"男性","force":800,"gin":100,"sen":261,"death":(["mud_age":2672,"dx_loss":2250,"combat_exp_loss":2000,"skill_loss":0,]),"max_force":800,"MKS":1,"channel":(["chat_block":1155926681,"tell_count":3,"last_tell":1156304024,"chat_count":1,"last_chat":1156304154,]),"combat_exp":78015,"kar":18,"str":20,"attitude":"peaceful","max_sen":700,"id":"evelees","cps":18,"int":25,"eff_kee":600,"cor":14,"con":20,"life":(["init_life_time":73,"life_time":72,]),"eff_gin":100,"spi":25,"per":30,"unit":"位",])
+skills (["parry":2,"dodge":1,])
+learned (["parry":2,"dodge":3,])
+autoload ({})

@@ -1,0 +1,7 @@
+#/d/qujing/tianzhu/npc/shu.c
+dbase (["unit":"位","gin":260,"race":"人类","sen":990,"can_speak":1,"attitude":"friendly","name":"舒老板","gender":"男性","shen_type":1,"combat_exp":9000,"kar":16,"max_sen":990,"str":18,"cps":10,"eff_kee":910,"int":30,"id":"shu laoban","cor":14,"age":50,"con":17,"kee":910,"spi":10,"max_kee":910,"per":30,"actions":,"force":0,"startroom":"/d/qujing/tianzhu/pidian","eff_gin":260,"max_gin":260,"mana":0,"shop_id":({"laoban","shu",}),"eff_sen":990,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"default_actions":,"atman":0,"shop_title":"老板","vendor_goods":(["pimao":"/d/qujing/tianzhu/obj/pimao","pidun":"/d/qujing/tianzhu/obj/pidun","pixue":"/d/qujing/tianzhu/obj/pixue","piyi":"/d/qujing/tianzhu/obj/piyi",]),])
+skills (["parry":30,"unarmed":30,"dodge":30,])
+learned (["parry":0,"unarmed":0,"dodge":0,])
+SAVE_NAME "tianzhu_shu_laoban"
+price_ratio 10
+close_time 1156373696

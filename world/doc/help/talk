@@ -1,0 +1,10 @@
+  create 你要创建什么聊天室？
+ 2: join 你要加入什么聊天室？
+ 3: kickout 你要把谁踢出去？
+ 4: leave 离开
+ 5: say 说
+ 6: list 列表
+ 7: lock 把房间锁了起来。
+ 8: unlock 打开房间
+ 9: look 看自已所在的房间
+

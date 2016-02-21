@@ -1,0 +1,123 @@
+			取经完成部分
+
+
+  1./adm/daemons/obstacled
+	这个daemon主要存放全局变量和一些处理过程
+
+	(1).系统启动后,将DATA_DIR + "qujing/obstacled"下的数据读入
+	    如果取经人已经产生,将取经人放在最后一次出现的地方.
+	    如果没有产生的话,五天后产生一个取经人
+
+	(2).取经人产生过程
+	    玩家先向 唐太宗 ask tang about qujing 获得同意后
+	    到朝天场nd(这里nd是新加的东西)
+	    ask shi guan about pass3
+	    如果没有人在过关的话,就可以过三关,
+	    过三关后,就等待,等待选取经人的时间过(一天时间来选取经人)
+	    从过完三关的人中选出一个取经人.
+	    选出的取经人ask tang about qujing 
+	    这样就可以上路了
+
+  2./d/qujing/qujingren
+	所有的取经人文件目前放在这里
+
+	changan
+	wuji
+	tianmo
+	
+	取经人的文件有两个部分构成
+        /d/qujing/qujingren/qujingren.c 是基本所有共用的部分
+	以下的每个目录对应每关的取经人,
+	以为每关发生的情况不同,因此可能需要不同的处理机构
+	在obstacled中有一个变量"guan",也就是对应这里的目录名
+
+  3.取经人的一些变化
+	移动:
+		取经人每次移动会有两秒的busy_time
+		修改了文件/feature/team
+	
+		这样就要求玩家不能走太快
+
+	食物:
+		取经人需要吃东西,如果food<20就走不动了
+		好在唐太宗有送一个紫金钵可以用来化缘
+
+
+  4.抓取经人:
+	玩家要先到天魔庙叩拜(knock,koubai)
+	然后ask laoren about jiebao, 	accept
+	这样就可以借到天魔茧,只有天魔茧才可以抓取经人,其他法宝一概无效
+
+	当你用天魔茧zhua到取经人后,取经人会自动被送到蒸笼房.
+	护送玩家就需要到蒸笼房救出取经人.
+	蒸笼房是从天魔庙开始过七个走廊后可以达到.
+
+	当抓到取经人后,护送玩家不能马上过走廊(在庙中会被挡住)
+	这段时间有60秒,是给抓取经人的玩家时间布置走廊
+	走廊可以用命令shouhu (守护).用天魔茧抓取经人的那个玩家就是
+	领导了,他可以指定某个走廊由谁把守.
+	护送人经过走廊就需要打跑所有护送的话,才可以通过
+	通过后到达蒸笼房,现在盖子就可以救出取经人了.
+	在这个时候会出现蒸笼老人,ask lao ren about back,就可以回到原来
+	被抓的地方.
+	如果护送人24小时内不能救出取经人,抓人的玩家就可以掀盖子得到
+	六块取经人肉(一块已经被蒸笼老人拿走了)
+
+ 	同时取经也就失败了.
+		
+
+	设想如果以后取经人被npc抓走,最后可以有一件房间在玩家战胜npc
+	就可以到达哪个房间,哪个房间类型蒸笼房,或者蒸笼老人是固定要被
+	雇佣的.这样利用这个本来就设计好的方式,回到原来的地方.
+
+
+   5.变量说明
+	OBSTACLE_D 	/adm/daemons/obstacled
+		"haved_qujingren"	是否已经产生了取经人
+		"guan"			关,每关取经人的文件名为					"/d/qujing/qujingren/"+me->query("guan")+"qujingren"
+
+		where_qujingren		取经人所在的地方
+
+		this_qj_time		累计的取经次数每次加一
+		min_time		过三关用的最少时间
+		choose_qjr		选取经人的标志(1=现在在选)
+		number			有几个人过了三关
+		qujing_times		过了三关的玩家以前取过经的次数
+		obstacle_fail		取经失败
+		husong 			护送人的id
+
+
+		open_door		在取经人被抓60秒后才允许护送人
+					经过天魔庙到走廊
+		last_jie_id		最后向蒸笼老人借宝的人
+		cated_qjr		=1 取经人被抓
+		cated_type		="player'被玩家抓到
+		cated_id		抓取经人的玩家
+		last_env		被抓是取经人存在的地方
+			
+
+	护送人
+		obstacle/qujing="ren"	固定标志
+		obstacle/last_qj_time	最后一次取经的编号
+
+
+	抓取经人
+		obstacle/no_qujing			
+
+
+遗留问题:
+
+	不能对取经人kill ,cast,steal..等等,需要改其他相关的指令,目前还没有
+	修改
+	
+	取经人肉和对玩家护送失败的惩罚都没有设定(不知道如何把握尺度)
+	
+	/feature/move 中npc给npc东西会消失还没有改
+
+	将obstacled加入preload
+
+	需要修改/adm/daemons/logind
+		1.如果玩家取经失败,还没做惩罚,补做惩罚
+
+
+

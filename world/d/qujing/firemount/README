@@ -1,0 +1,60 @@
+[2;37;0mread 5
+[5] proposal about "firemount"               Ñ©±ª(Fri Apr  4)
+----------------------------------------------------------------------
+
+Wuliao has created 20 rooms for firemount. Here I'd like to
+extend the existing implementation, by adding the following 
+features:
+
+- set up a menpai for firemount, it could be a bad menpai but
+no oblications to hurt other players once joined this menpai. 
+i don't feel the need to hurt other players at all!
+
+- set up some benifit for this menpai (see below)
+
+Certainly it is necessary to add quests. i suggest the followings:
+
+- meet the lady-master first (iron-fan lady), with the help from
+cloud-fog, and fog-cloud 2 brothers, they may refuse to give help
+randomly, need an interval of 15 to 30 mins to see lady-master.
+but first the player should find the way which leads to the bajiao
+dong (2 to 5 mins? needs to redefine the path to it).
+
+- for high hands, it is easier (we encourage players to work hard
+to get good skills whatsoever) since players can chalenge 60 level
+player to the lady-master directly and she will be kind to the player.
+after a simple question, she will give an iron-fan.
+
+- for low hand, he needs to collect enough iron-bones, materials used
+to make iron-fan and give them to lady's brother. he needs to find
+the tudi (earth-god) in the temple, who will indicate the direction
+to the forest of iron-trees. the players have to clim up and collect
+iron-bones. he may fall down and loses 10% of qi, or he can get fake
+iron-bones. once 10 iron-bones are collected. the brother will introduce
+him to the lady-master.
+
+- to make this as a fun, during the collection of the iron-bones, 
+the players can get pot/daoxing whiling collecting iron-bones. of course
+once players passed the obstacle, this feature is disabled to prevent
+any abuse,
+
+- if the player wants to apprentice this menpai, he can apprentice 
+cloud-fog or fog-cloud. he will be told immediately that he will get
+an iron-fan from lady-master once his skill "iron-fan" is above 20.
+this is to say that he can see lady-master and get a free iron-fan.
+
+- without all this, if the player goes to firemount directly, he will 
+an iron-fan near the firemount, it is a weak chance since we set the 
+probability relatively low.
+
+- an extra bonus for this obstacle is that whenever the player passed
+this obastacle, he can ask for iron-fan any time he wants from the 
+lady-master. it is a fa-bao, with a cast feature attached to it in case
+the player wields it.
+
+the implementation of the above ideas may take 2 to 6 weeks to implement
+in my case.
+
+regards
+
+> 

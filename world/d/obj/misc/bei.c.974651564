@@ -1,0 +1,59 @@
+//create by guoth
+
+#include <ansi.h>
+
+inherit ITEM;
+
+void create()
+{
+   set_name( HIG "※"+HIC+"巫师纪念碑"+HIG+"※" NOR , ({ "jinian bei" }) );
+   set_weight(200000);
+   set("long", @LONG
+    这是一座仿照人民英雄纪念碑制造的迷你纪念碑。
+    是玉皇大帝为了奖励xlqy众wiz们的突出贡献，颁旨用李天王的
+镇妖塔改造的。上面写着：
+                        仙
+                        侣
+                        情
+                        缘
+                        巫
+                        师
+                        纪
+                        念
+                        碑
+       dannis.yuhuangdadi题
+题词的下面是众神名册：
+  爱的命(admin) ：神龙(cnd)，八大王(caoji)，一叶知秋(vikee)，
+                  游戏兔子(guoth)，雨点(yudian)
+  爱  痴 (arch) ：绿无常(greenwc)，小玉鼠(yushu)，天使(angell)
+  爱  痴 (arch) ：绿无常(greenwc)，小玉鼠(yushu)，天使(angell)
+  爱  痴 (arch) ：绿无常(greenwc)，小玉鼠(yushu)，天使(angell)
+  爱  痴 (arch) ：绿无常(greenwc)，小玉鼠(yushu)，天使(angell)
+  爱  痴 (arch) ：绿无常(greenwc)，小玉鼠(yushu)，天使(angell)
+  爱  痴 (arch) ：绿无常(greenwc)，小玉鼠(yushu)，天使(angell)
+  爱  痴 (arch) ：绿无常(greenwc)，小玉鼠(yushu)，天使(angell)
+  爱  痴 (arch) ：绿无常(greenwc)，小玉鼠(yushu)，天使(angell)
+  爱  痴 (arch) ：绿无常(greenwc)，小玉鼠(yushu)，天使(angell)
+  爱  痴 (arch) ：绿无常(greenwc)，小玉鼠(yushu)，天使(angell)
+  爱  痴 (arch) ：绿无常(greenwc)，小玉鼠(yushu)，天使(angell)
+  爱  痴 (arch) ：绿无常(greenwc)，小玉鼠(yushu)，天使(angell)
+  爱  痴 (arch) ：绿无常(greenwc)，小玉鼠(yushu)，天使(angell)
+  爱  痴 (arch) ：绿无常(greenwc)，小玉鼠(yushu)，天使(angell)
+  爱  痴 (arch) ：绿无常(greenwc)，小玉鼠(yushu)，天使(angell)
+  爱  痴 (arch) ：绿无常(greenwc)，小玉鼠(yushu)，天使(angell)
+  爱  痴 (arch) ：绿无常(greenwc)，小玉鼠(yushu)，天使(angell)
+  爱  痴 (arch) ：绿无常(greenwc)，小玉鼠(yushu)，天使(angell)
+LONG);
+       if( clonep() )
+                set_default_object(__FILE__);
+        else {
+                set("unit", "座");
+                set("material", "stone");
+                set("value", 2000);
+                set("no_get", 1);
+                set("amount",30);
+        }
+ 
+            setup();
+}
+

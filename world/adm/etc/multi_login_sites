@@ -1,0 +1,12 @@
+# the sites in this list allow multi login.
+# the format is: site_ip limit
+# where the site_ip is a regular expression for the ip
+# and the limit is the maximum limit of multi login from this site.
+# is limit is omitted, then no limit.
+# should use numerical IP only.
+#
+# this is sg site
+^155\.69\.1\. 20
+^137\.132\.1\.18 20
+#
+^203.93.114 20

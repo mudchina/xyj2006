@@ -1,0 +1,2 @@
+#/std/bboard.c
+dbase (["id":"board","capacity":200,"long":"这是一个供人留言记事的留言板。","board_id":"wizard_b","no_get":1,"notes":({}),"master":"tomcat","env":(["invisibility":1,]),"location":"/d/wiz/wizroom","name":"巫师留言板",])

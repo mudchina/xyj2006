@@ -1,0 +1,63 @@
+prototype for 掌门大弟子
+　
+1. Implementation
+　
+我补改了文件/d/npc/zhangmen.c
+并在/adm/daemons/logind.c里加了自动增删"XXXX掌门大弟子"
+的功能（前任掌门大弟子在失去头衔时可能不在线上）
+　
+每个门派的掌门大弟子data存在/data/zhangmen/zhangmen_<master_id>.o
+　
+2. How to install it to a menpai
+　
+此掌门大弟子文件/d/npc/zhangmen.c可以很好地配合pickle
+所倡导的对每一个门派不同的要求．
+　
+这个掌门大弟子最大的好处是它很generic,不用copy重写,
+不用修改本门派的其他文件,不用给master加设新function.
+只要两行就行了：
+
+　　　object ob = new ("/d/npc/zhangmen");
+　    ob->create_identity(master,location);
+　
+以上的master和location都是mixed, 可以是file name也可以是
+object.
+　
+3. Features
+　
+掌门大弟子会根据master的info来自动reconfigure自己,
+包括门派名称,武艺类型, 姓别(e.g.月宫弟子为女)等等.
+　
+掌门大弟子不接受叛师过的玩家.
+　
+如果掌门大弟子与master在同一个room里, 当一个玩家
+战胜了掌门大弟子, master会及时宣布新掌门大弟子.
+　
+如果掌门大弟子与master在不同的rooms里, 当一个玩家
+战胜了掌门大弟子, 掌门大弟子会随同玩家一起去拜见
+master, 等master4任可了之后便当众宣布新掌门大弟子.
+　
+一旦有玩家使用kill/steal/cast/exert/perform等手段,
+或是一拥而上围攻掌门大弟子, 如果master不在同一个
+room, 挑战比武便成了普通无结果的打杀; 如果master
+在同一个room里, 如果杀戒一开, master与掌门大弟子会
+并肩作战对付不轨的玩家.
+　
+4. Change of title
+　
+"南海普陀山掌门大弟子"永久取代"南海普陀山第二代弟子",
+使用 who -l之类的commands可以看到.
+　
+玩家A挑战现任掌门大弟子(玩家B),挑战时掌门大弟子
+会自动根据玩家B的最新武艺更新身体(无论玩家B是否在线)
+　
+如果玩家A战胜了掌门大弟子,若是玩家B在线,玩家B的头
+衔换回成"南海普陀山第二代弟子",若是玩家B不在线上,
+等玩家B下次login时自动换成"南海普陀山第二代弟子".
+　
+5. Example
+　
+见/d/nanhai/guangchang.c南海普陀山洞前广场.
+目前参加测试的玩家是lady(方淑)
+
+

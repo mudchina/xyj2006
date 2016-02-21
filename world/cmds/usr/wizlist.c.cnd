@@ -1,0 +1,53 @@
+
+
+#include <ansi.h>
+
+inherit F_CLEAN_UP;
+
+mapping lists = ([
+             "(admin)" : HIW "★逍 遥 仙" NOR "  (admin)   : ",
+                        "(arch)" : HIG "★神    仙" NOR "   (arch)   : ",
+                    "(wizard)" : HIB "★巫    师" NOR "  (wizard)  : ",
+                    "(apprentice)" : HIG "★巫师学徒" NOR "(apprentice): ",
+                     "(immortal)" : HIM "★客座巫师" NOR " (immortal) : ",
+                     "(elder)": HIC "★荣誉玩家" NOR "  (elder)  : ",
+ ]);
+
+
+int level(mixed, mixed);
+
+int main(object me, string arg)
+{
+        string *list, hood = "", str;
+        int j = 0;
+
+        list = sort_array(SECURITY_D->query_wizlist(), (: level :) );
+           str = HIM"〖仙侣情缘〗"HIY"·"HIG"常德站"NOR"巫师组全家福(本站暂时不招收巫师)\n";
+        for(int i=0; i<sizeof(list); i++, j++) {
+                if (hood != wizhood(list[i]) ) {
+                        hood = wizhood(list[i]);
+                        if (j%7) str += "\n";
+                        str += lists[hood] ;
+                        j = 0;
+                }
+if (list[i]!="yudian"&& list[i]!="lestat" && list[i]!="xintai"&& list[i]!="yesi"&& list[i]!="cnd" && list[i]!="guoth" && list[i]!="vikee" ) str += sprintf("%s%s", list[i],
+                        ( j%7==6 ) ? "\n" : ( i<sizeof(list)-1 && hood ==wizhood(list[i+1]) ) ? "  " : ""  );
+        }
+        me->start_more(str);
+        return 1;
+}
+
+int level(mixed ob1, mixed ob2)
+{
+        if (wiz_level(ob1) != wiz_level(ob2))
+                return wiz_level(ob2) - wiz_level(ob1);
+        return ob1 < ob2?-1:1;
+}
+
+int help(object me)
+{
+        write("\n指令格式 : wizlist\n"
+        "用途 : 列出目前所有的巫师名单。\n"
+        );
+        return 1;
+}

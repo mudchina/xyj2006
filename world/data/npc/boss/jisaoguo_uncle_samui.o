@@ -1,0 +1,5 @@
+#/d/qujing/jisaiguo/npc/samui.c
+dbase (["can_speak":1,"con":18,"mana":0,"age":65,"spi":19,"attitude":"peaceful","per":15,"atman":0,"eff_sen":300,"actions":,"sen":300,"force":0,"name":"萨米儿大叔","gender":"男性","startroom":"/d/qujing/jisaiguo/restaurant","eff_gin":0,"combat_exp":1000,"max_gin":404,"default_actions":,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"max_sen":300,"unit":"位","kar":18,"str":23,"vendor_goods":(["jiunang":"/d/obj/food/jiunang","yangtui":"/d/qujing/jisaiguo/obj/yangtui","roubing":"/d/obj/food/roubing",]),"eff_kee":300,"cps":15,"shop_id":({"uncle","samui",}),"kee":300,"int":28,"max_kee":300,"long":"一位光头小胡子，黄发蓝眼睛的老人，很风趣的样子。","gin":404,"race":"人类","cor":19,"id":"uncle samui",])
+SAVE_NAME "jisaoguo_uncle_samui"
+price_ratio 10
+close_time 1155984994

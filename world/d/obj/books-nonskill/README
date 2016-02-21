@@ -1,0 +1,38 @@
+this is a list of all the books that are not for skill:
+
+note, the xyj01... books and the hmeng01... books are a
+series of chapters from 西游记 and 红楼梦 respectively,
+thanks to snowcat. however, there are many many of them,
+and i really don't know what to do with them. to make
+each and every one of them into a book for sale will
+surely overload the bookseller. maybe we can build a
+library somewhere. the books for sale, i prefer to be
+either interesting stories such as those bula extracted
+from bbs, or those that had happened within the mud
+itself. of course if you take a story from the mud,
+please make sure that the players involved agree to it.
+i am thinking maybe we can build a bookstore in every
+city and make them carry different books. but in any case,
+for now, let me list what is available:
+
+书名		城市		书贩子		价钱
+──────────────────────────────
+西游嘻记	长安		孔方兄		十两白银
+扶乩真伪	长安		孔方兄		十两白银
+昆仑记		长安		孔方兄		十两白银
+
+
+
+a couple of other tips: if you want to write a book,
+please look at EXAMPLE.c. when putting the book in the
+game, make sure that the total amount from the book
+seller is limited, since with infinite books a player
+can turn gold into mihoutao and dan at their pleasure,
+or reproduce more gold for that matter. for a reference
+on how to limit the total number of books for sale, you
+can look at /d/city/npc/bookseller.c
+
+if you add any books, of course, you should add them in
+the list above...
+
+9-27-97 pickle

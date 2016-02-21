@@ -1,0 +1,5 @@
+#/d/qujing/wudidong/npc/smith.c
+dbase (["actions":,"spi":14,"can_speak":1,"per":25,"attitude":"friendly","name":"张铁臂","startroom":"/d/qujing/wudidong/smithy","title":"铁匠","gender":"男性","limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"max_gin":324,"unit":"位","race":"人类","kee":910,"max_kee":910,"id":"blacksmith","age":42,"mana":0,"sen":1082,"eff_sen":1082,"force":0,"max_sen":1082,"combat_exp":5000,"long":"张铁匠正在打铁，炉火把他的脸映得通红。","eff_kee":910,"default_actions":,"rank_info":(["respect":"张大哥",]),"kar":10,"vendor_goods":(["tiefu":"/d/obj/weapon/axe/tiefu.c","pickaxe":"/d/obj/weapon/hammer/pickaxe.c","plow":"/d/obj/weapon/hammer/plow.c","sickle":"/d/obj/weapon/blade/sickle.c","zhadao":"/d/obj/weapon/blade/zhadao.c","scythe":"/d/obj/weapon/blade/scythe.c",]),"atman":0,"eff_gin":324,"str":15,"cps":30,"int":28,"cor":18,"gin":324,"con":20,])
+SAVE_NAME "wudidong_blacksmith"
+price_ratio 10
+close_time 1156246818

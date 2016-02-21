@@ -1,0 +1,30 @@
+<!--
+BODY {background-color:#FFFFFF;color:#000000;font-family:'ËÎÌו';font-size:9pt;leftmargin:0px;margin:0px 0px 0px 0px;}
+a:link    {color='#333333';text-decoration:none}
+a:visited {color:'black';text-decoration:none}
+a:hover   {color:'blue';text-decoration:underline}
+a:active {TEXT-DECORATION: none}
+
+INPUT {FONT-FAMILY: arial,ËÎÌו; FONT-SIZE: 9pt; PADDING-TOP: 3px}
+TR,TD,P{font-size:9pt}
+B{font-weight:normal;}
+INPUT.text,INPUT.file,SELECT,TEXTAREA{color:#000000;background-color:#F0F0F0;border:1 solid #101010}
+input {BACKGROUND: #fafafa; COLOR: #000000; FONT-WEIGHT: normal;bordercolor:#fafafa;font-size:9pt}
+.article{position:absolute;visibility:hidden; filter:revealTrans(transition=23,duration=0.5) blendTrans(duration=0.5);border=1 solid black;}
+.iframestyle{overflow: visible;padding:0;border-left:1 solid #202020;border-right:1 solid #FFFFFF;border-top:1 solid #202020;border-bottom: 1 solid #FFFFFF;
+}
+.notice{background-color:#FFFFFF;overflow:visible;border-left:1 solid #202020;border-right:1 solid #FFFFFF;border-top:1 solid #202020;border-bottom: 1 solid #FFFFFF;
+}
+FONT {
+	FONT: 9pt ; TEXT-DECORATION: none
+}
+FONT.table{FONT: 9pt ; TEXT-DECORATION: none}
+FONT.strong{color:#000000;font-weight:bold;}
+.title{background-color:#B4B4B4}
+.footer{color:black;font-size:9pt}
+.info{background-color:#B4B4B4}
+.retable,.rcontent{background-color:#F0F0F0}
+.outter,.cell{background-color:#CECECE}
+.rcontent,.info,.move,.title{background-color:#254025}
+
+-->

@@ -1,0 +1,2 @@
+#/obj/lingpai.c
+dbase (["id":"lingpai","banghui":"斧头帮","player":(["gang":"gang","alone":"alone","mtx":"何处是我家",]),"name":"斧头帮令牌","unit":"块","npc":([]),"bangzhu":"何处是我家","money":0,"bangzhu_id":"mtx","area":([]),"no_use":0,])
